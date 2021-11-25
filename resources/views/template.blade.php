@@ -61,27 +61,30 @@
                             <!-- main navbar -->
                             <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="icon-angle-down"></b></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
                                         <ul>
-                                            <li><a href="index.html">Home - Icon Bar</a></li>
+                                            <li><a href="index.html">Viagens</a></li>
                                             <li>
-                                                <a href="home-search-bar.html">Home - Tour Search</a>
+                                                <a href="home-search-bar.html">Rent-a-Car</a>
                                             </li>
                                             <li>
-                                                <a href="home-icon-search.html">Home - Icon + Search</a>
+                                                <a href="home-icon-search.html">Excuesões</a>
                                             </li>
                                             <li>
-                                                <a href="home-revolution.html">Home - Revolution</a>
+                                                <a href="home-revolution.html">Guia Turística</a>
                                             </li>
                                             <li>
-                                                <a href="home-parallax.html">Home - Parallax</a>
+                                                <a href="home-parallax.html">Passagens Aéreas</a>
                                             </li>
                                             <li>
-                                                <a href="home-html5-video.html">Home - HTML5 Video</a>
+                                                <a href="home-html5-video.html">Seguros de Viagens</a>
                                             </li>
                                             <li>
-                                                <a href="home-static-image.html">Home - Static Image</a>
+                                                <a href="home-static-image.html">Reservas de Hotéis</a>
+                                            </li>
+                                            <li>
+                                                <a href="home-static-image.html">Organizações de Seminários</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -279,7 +282,7 @@
                                     </div>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="icon-angle-down"></b></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nós <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li><a href="blog-default.html">Blog Default</a></li>
