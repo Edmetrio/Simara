@@ -1378,7 +1378,7 @@ blockquote.normal {
 }
 
 #testimonial-home-page {
-	background-image: url('../img/generic/img-05.jpg');
+	background-image: url('../img/slider/img-03.jpg');
 }
 
 #banner-homeparallax-default {
@@ -2067,7 +2067,7 @@ blockquote.normal {
 /* feature block global styles */
 
 .feature-block {
-	background: #252525;
+	background: #F58634;
 	z-index: 99;
 	padding: 10px 0;
 	text-transform: uppercase;
@@ -2133,7 +2133,7 @@ blockquote.normal {
 .feature-block li a {
 	display: block;
 	height: 100%;
-	color: #9d9d9d;
+	color: #fff;
 }
 
 .feature-block li a:hover {
