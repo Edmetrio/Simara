@@ -6,9 +6,8 @@
         <section class="content-block bg-white">
           <div class="container">
             <header class="content-heading">
-              <h2 class="main-heading">THE ADVENTURE</h2>
-              <span class="main-subtitle">Mastering the art of perfect adventure for 10+ years in the
-                wild.</span>
+              <h2 class="main-heading">Nossos Destinos</h2>
+              <span class="main-subtitle">Nossos Destino é apresentado todos sítios que trabalhamos.</span>
               <div class="seperator"></div>
             </header>
             <div class="adventure-holder gallery-home-holder">
@@ -251,19 +250,13 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><span class="icon-twitter"></span></a>
-                        </li>
-                        <li>
-                          <a href="#"><span class="icon-google-plus"></span></a>
-                        </li>
-                        <li>
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
                           <a href="#"><span class="icon-linkedin"></span></a>
                         </li>
                       </ul>
-                      <span class="price">A partir de <span>4.600,00MT</span></span>
+                      <span class="price">A partir de <span>4.600,00</span></span>
                     </footer>
                   </div>
                 </article>
@@ -299,7 +292,7 @@
                           <a href="#"><span class="icon-linkedin"></span></a>
                         </li>
                       </ul>
-                      <span class="price">A partir de <span>3.100,00MT</span></span>
+                      <span class="price">A partir de <span>3.100,00</span></span>
                     </footer>
                   </div>
                 </article>
@@ -326,19 +319,13 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><span class="icon-twitter"></span></a>
-                        </li>
-                        <li>
-                          <a href="#"><span class="icon-google-plus"></span></a>
-                        </li>
-                        <li>
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
                           <a href="#"><span class="icon-linkedin"></span></a>
                         </li>
                       </ul>
-                      <span class="price">from <span>13.540,00MT</span></span>
+                      <span class="price">A partir de <span>13.540,00</span></span>
                     </footer>
                   </div>
                 </article>
@@ -365,19 +352,13 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><span class="icon-twitter"></span></a>
-                        </li>
-                        <li>
-                          <a href="#"><span class="icon-google-plus"></span></a>
-                        </li>
-                        <li>
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
                           <a href="#"><span class="icon-linkedin"></span></a>
                         </li>
                       </ul>
-                      <span class="price">A partir de <span>4.600,00MT</span></span>
+                      <span class="price">A partir de <span>4.600,00</span></span>
                     </footer>
                   </div>
                 </article>
@@ -404,16 +385,13 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><i class="icon-instagram"></i></a>
-                        </li>
-                        <li>
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
                           <a href="#"><span class="icon-linkedin"></span></a>
                         </li>
                       </ul>
-                      <span class="price">A partir de <span>3.100,00MT</span></span>
+                      <span class="price">A partir de <span>3.100,00</span></span>
                     </footer>
                   </div>
                 </article>
@@ -440,19 +418,13 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><span class="icon-twitter"></span></a>
-                        </li>
-                        <li>
-                          <a href="#"><span class="icon-google-plus"></span></a>
-                        </li>
-                        <li>
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
                           <a href="#"><span class="icon-linkedin"></span></a>
                         </li>
                       </ul>
-                      <span class="price">from <span>13.540,00MT</span></span>
+                      <span class="price">A partir de <span>13.540,00</span></span>
                     </footer>
                   </div>
                 </article>
@@ -461,7 +433,7 @@
           </div>
         </section>
         <!-- content block with guide info -->
-        <section class="content-block guide-sub guide-add bg-white">
+        <!-- <section class="content-block guide-sub guide-add bg-white">
           <div class="container">
             <header class="content-heading">
               <h2 class="main-heading">MEET THE GUIDES</h2>
@@ -549,7 +521,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
         <!-- testimonial block -->
         <div class="testimonial-holder parallax" data-stellar-background-ratio="0.25" id="testimonial-home-page">
           <div class="container">
@@ -616,56 +588,56 @@
             <div class="partner-list" id="partner-slide">
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-travelagancy.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('img/logos/logo-travelagancy-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/1200px-Ethiopian_Airlines_Logo.svg.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/1200px-Ethiopian_Airlines_Logo.svg.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-around-world.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-around-world-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/1200px-Kenya_Airways_Logo.svg.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/1200px-Kenya_Airways_Logo.svg.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-tourist.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-tourist-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/1200px-Singapore_Airlines_Logo_2.svg.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/1200px-Singapore_Airlines_Logo_2.svg.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-adventure.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-adventure-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/Air_France-KLM_Logo.svg.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/Air_France-KLM_Logo.svg.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-around-world.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-around-world-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/saacorporateprimarylogostaralliancergb-01-1-1.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/saacorporateprimarylogostaralliancergb-01-1-1.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-travelagancy.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="img/logos/logo-travelagancy-hover.svg" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/db0f8ed8a016a8e48c0ab992435f8c45.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/db0f8ed8a016a8e48c0ab992435f8c45.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-adventure.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-adventure-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/lam.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/lam.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-around-world.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-around-world-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/logo-delta-airlines.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/logo-delta-airlines.png')}}" alt="image description" />
                 </a>
               </div>
               <div class="partner">
                 <a href="#">
-                  <img width="130" src="{{asset('assets/img/logos/logo-travelagancy.svg')}}" alt="image description" />
-                  <img class="hover" width="130" src="{{asset('assets/img/logos/logo-travelagancy-hover.svg')}}" alt="image description" />
+                  <img width="130" src="{{asset('assets/img/companhia/qatar-airways-logo.png')}}" alt="image description" />
+                  <img class="hover" width="130" src="{{asset('assets/img/companhia/qatar-airways-logo.png')}}" alt="image description" />
                 </a>
               </div>
             </div>
