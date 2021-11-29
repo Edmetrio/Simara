@@ -43,8 +43,8 @@
                     <!-- logo -->
                     <div class="logo">
                         <a href="index.html">
-                            <img class="normal" src="{{asset('assets/img/logos/logo.svg')}}" alt="Entrada" />
-                            <img class="gray-logo" src="{{asset('assets/img/logos/logo-gray.svg')}}" alt="Entrada" />
+                            <img class="normal" src="{{asset('assets/img/logos/logo.png')}}" alt="Simara" />
+                            <img class="gray-logo" src="{{asset('assets/img/logos/logo.png')}}" alt="Simara" />
                         </a>
                     </div>
                     <!-- main navigation -->
@@ -61,6 +61,7 @@
                         <div class="collapse navbar-collapse" id="nav">
                             <!-- main navbar -->
                             <ul class="nav navbar-nav">
+                                <li><a href="tour-detail.html">Início</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
@@ -90,37 +91,9 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tour Listing <b class="icon-angle-down"></b></a>
-                                    <div class="dropdown-menu">
-                                        <ul>
-                                            <li>
-                                                <a href="grid-view-2-column.html">Grid View - 2 Column</a>
-                                            </li>
-                                            <li>
-                                                <a href="grid-view-3-column.html">Grid View - 3 Column</a>
-                                            </li>
-                                            <li>
-                                                <a href="grid-view-4-column.html">Grid View - 4 Column</a>
-                                            </li>
-                                            <li>
-                                                <a href="grid-view-sidebar.html">Grid View - Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="grid-view-full-width.html">Grid View - Full Width</a>
-                                            </li>
-                                            <li>
-                                                <a href="list-view-normal.html">List View - Normal</a>
-                                            </li>
-                                            <li>
-                                                <a href="list-view-detail.html">List View - Detail</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="tour-detail.html">Tour Detail</a></li>
+                                <li><a href="tour-detail.html">Galeria</a></li>
                                 <li class="dropdown has-mega-dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities <b class="icon-angle-down"></b></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ultímos Postes <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
                                         <div class="drop-wrap">
                                             <div class="drop-holder">
@@ -128,31 +101,14 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="hiking-camping.html"><img src="{{asset('assets/img/generic/img-01.jpg')}}" height="228" width="350" alt="image description" /></a>
+                                                                <a href="hiking-camping.html"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="hiking-camping.html">Hiking/Camping</a></strong>
+                                                                <strong class="title"><a href="hiking-camping.html">Dia Mundial de HIV</a></strong>
                                                                 <p>
-                                                                    A good backpacker minimizes their impact on
-                                                                    the environment, including staying on
-                                                                    established trails, not disturbing
-                                                                    vegetation, and carrying garbage out.
-                                                                </p>
-                                                            </div>
-                                                        </div>  
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="col">
-                                                            <div class="img-wrap">
-                                                                <a href="jungle-safari.html"><img src="{{asset('assets/img/generic/img-02.jpg')}}" height="215" width="370" alt="image description" /></a>
-                                                            </div>
-                                                            <div class="des">
-                                                                <strong class="title"><a href="jungle-safari.html">Jungle Safari</a></strong>
-                                                                <p>
-                                                                    In the past, the trip was often a big-game
-                                                                    hunt, but today, safari often refers to
-                                                                    trips to observe and photograph wildlife—or
-                                                                    hiking and sight-seeing as well.
+                                                                    O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
+                                                                    internacionalmente definido como o dia 1° de dezembro, é uma data voltada
+                                                                    para que o mundo una
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -160,16 +116,30 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="city-tour.html"><img src="{{asset('assets/img/generic/img-03.jpg')}}" height="215" width="370" alt="image description" /></a>
+                                                                <a href="jungle-safari.html"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="city-tour.html">Urban City Tour</a></strong>
+                                                                <strong class="title"><a href="jungle-safari.html">Reserva de Maputo</a></strong>
                                                                 <p>
-                                                                    The type of urban city tour considered here
-                                                                    is a full, partial-day, or longer tour of a
-                                                                    historical, or cultural or artistic site in
-                                                                    one or more tourist destinations.
+                                                                    A Reserva de Elefantes de Maputo, oficialmente Reserva Especial de Maputo,
+                                                                    é uma área de conservação localizada no extremo sul de Moçambique, no distrito
+                                                                    de Matutuíne
                                                                 </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="col">
+                                                            <div class="img-wrap">
+                                                                <a href="city-tour.html"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" /></a>
+                                                            </div>
+                                                            <div class="des">
+                                                                <strong class="title"><a href="city-tour.html">África do Sul</a></strong>
+                                                                <p>
+                                                                    África do Sul é um país seguro para viajar, inclusive para mulheres.
+                                                                    Os crimes contra turistas são raros e, na maioria das vezes, limitam-se
+                                                                    a furtos.
+                                                                    SOBRE NÓS             </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -187,96 +157,8 @@
                                                                     groups, contributing to forums.
                                                                 </p>
                                                             </div>
-                                                        </div>
+                                                       </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="dropdown has-mega-dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="icon-angle-down"></b></a>
-                                    <div class="dropdown-menu">
-                                        <div class="drop-wrap">
-                                            <div class="five-col">
-                                                <div class="column">
-                                                    <strong class="title sub-link-opener">General</strong>
-                                                    <ul class="header-link">
-                                                        <li><a href="about.html">About Us</a></li>
-                                                        <li><a href="error.html">404 Error</a></li>
-                                                        <li>
-                                                            <a href="tour-detail.html">Tour Detail</a>
-                                                        </li>
-                                                        <li><a href="megamenu.html">Megamenu</a></li>
-                                                        <li><a href="contact.html">Contact</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column">
-                                                    <strong class="title sub-link-opener">Layout</strong>
-                                                    <ul class="header-link">
-                                                        <li>
-                                                            <a href="layout-fullwidth.html">Full Width Page</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="layout-fullwidth-wide.html">Full Width Wide</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="layout-left-sidebar.html">Left Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="layout-right-sidebar.html">Right Sidebar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="layout-both-sidebar.html">Both Sidebar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column">
-                                                    <strong class="title sub-link-opener">Booking</strong>
-                                                    <ul class="header-link">
-                                                        <li><a href="login.html">Login/Register</a></li>
-                                                        <li>
-                                                            <a href="my-wishlist.html">My Wishlist</a>
-                                                        </li>
-                                                        <li><a href="my-cart.html">My Cart</a></li>
-                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                        <li>
-                                                            <a href="confirmation.html">Confirmation</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column">
-                                                    <strong class="title sub-link-opener">Header Styles</strong>
-                                                    <ul class="header-link">
-                                                        <li>
-                                                            <a href="header-top-bar.html">Header - Top Bar</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="header-centered.html">Header - Centered</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="header-default-white.html">Header - White</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="header-dark.html">Header - Dark</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="header-transparent.html">Header - Transparent</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="column">
-                                                    <strong class="title sub-link-opener">Misc</strong>
-                                                    <ul class="header-link">
-                                                        <li><a href="icon-font.html">Icon Fonts</a></li>
-                                                        <li>
-                                                            <a href="home-boxed.html">Boxed Layout</a>
-                                                        </li>
-                                                        <li><a href="home-image-bg.html">Image BG</a></li>
-                                                        <li>
-                                                            <a href="home-pattern-bg.html">Pattern BG</a>
-                                                        </li>
-                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -284,101 +166,6 @@
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nós <b class="icon-angle-down"></b></a>
-                                    <div class="dropdown-menu">
-                                        <ul>
-                                            <li><a href="blog-default.html">Blog Default</a></li>
-                                            <li>
-                                                <a href="blog-left-sidebar.html">Left Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-right-sidebar.html">Right Sidebar</a>
-                                            </li>
-                                            <li><a href="blog-fullwidth.html">Full Width</a></li>
-                                            <li><a href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="dropdown has-mega-dropdown mega-md">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements <b class="icon-angle-down"></b></a>
-                                    <div class="dropdown-menu">
-                                        <div class="drop-wrap">
-                                            <div class="row">
-                                                <div class="col-sm-4">
-                                                    <ul class="header-link">
-                                                        <li>
-                                                            <a href="elements-animations.html">Animations</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-blockquotes.html">Blockquotes</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-buttons.html">Buttons</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-carousel.html">Carousel</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-counters.html">Counters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-modal-boxes.html">Modal Boxes</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-paginations.html">Paginations</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <ul class="header-link">
-                                                        <li>
-                                                            <a href="elements-columns.html">Columns</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-data-tables.html">Data Tables</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-date-picker.html">Date Pickers</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-dividers.html">Dividers</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-icon-boxes.html">Icon Boxes</a>
-                                                        </li>
-                                                        <li><a href="icon-font.html">Icon Fonts</a></li>
-                                                        <li>
-                                                            <a href="elements-accordions.html">Accordions</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <ul class="header-link">
-                                                        <li>
-                                                            <a href="elements-headings.html">Headings</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-galleries.html">Galleries</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-labels-badges.html">Labels/Badges</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-media-option.html">Media Options</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-search-options.html">Search Options</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-social-icons.html">Social Icons</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="elements-responsive.html">Responsive/Visibility</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </li>
                                 <li class="visible-xs visible-sm">
                                     <a href="login.html">
@@ -390,116 +177,6 @@
                                     <a href="login.html">
                                         <span class="icon icon-user"></span>
                                     </a>
-                                </li>
-                                <li class="visible-xs visible-sm nav-visible dropdown last-dropdown v-divider">
-                                    <a href="my-cart.html" data-toggle="dropdown">
-                                        <span class="icon icon-cart"></span>
-                                        <span class="text hidden-md hidden-lg">Cart</span>
-                                        <span class="text hidden-xs hidden-sm">3</span>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-md">
-                                        <div class="drop-wrap cart-wrap">
-                                            <strong class="title">Shopping Cart</strong>
-                                            <ul class="cart-list">
-                                                <li>
-                                                    <div class="img">
-                                                        <a href="#">
-                                                            <img src="{{asset('assets/img/listing/img-16.jpg')}}" height="165" width="170" alt="image description" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="text-holder">
-                                                        <span class="amount">x 2</span>
-                                                        <div class="text-wrap">
-                                                            <strong class="name"><a href="#">Weekend in Paradise</a></strong>
-                                                            <span class="price">$199</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="img">
-                                                        <a href="#">
-                                                            <img src="{{asset('assets/img/listing/img-17.jpg')}}" height="165" width="170" alt="image description" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="text-holder">
-                                                        <span class="amount">x 4</span>
-                                                        <div class="text-wrap">
-                                                            <strong class="name"><a href="#">Water Sports in Spain</a></strong>
-                                                            <span class="price">$199</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="img">
-                                                        <a href="#">
-                                                            <img src="{{asset('assets/img/listing/img-18.jpg')}}" height="165" width="170" alt="image description" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="text-holder">
-                                                        <span class="amount">x 4</span>
-                                                        <div class="text-wrap">
-                                                            <strong class="name"><a href="#">Beach Party in Greece</a></strong>
-                                                            <span class="price">$199</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <div class="footer">
-                                                <a href="my-cart.html" class="btn btn-primary">View cart</a>
-                                                <span class="total">$3300</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="dropdown hidden-xs hidden-sm last-dropdown v-divider">
-                                    <a href="#"><span class="text">EN</span>
-                                        <span class="icon-angle-down"></span></a>
-                                    <div class="dropdown-menu dropdown-sm">
-                                        <div class="drop-wrap lang-wrap">
-                                            <div class="lang-row">
-                                                <div class="lang-col">
-                                                    <a href="#">
-                                                        <span class="text">English</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="lang-row">
-                                                <div class="lang-col">
-                                                    <a href="#">
-                                                        <span class="text">German</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="lang-row">
-                                                <div class="lang-col">
-                                                    <a href="#">
-                                                        <span class="text">Russian</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="lang-row">
-                                                <div class="lang-col">
-                                                    <a href="#">
-                                                        <span class="text">Czech</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="lang-row">
-                                                <div class="lang-col">
-                                                    <a href="#">
-                                                        <span class="text">Chinese</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="lang-row">
-                                                <div class="lang-col">
-                                                    <a href="#">
-                                                        <span class="text">Danish</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </li>
                                 <li class="visible-md visible-lg nav-visible v-divider">
                                     <a href="#" class="search-opener"><span class="icon icon-search"></span></a>
@@ -591,8 +268,7 @@
             <!-- main banner -->
             <div class="banner banner-home">
                 <!-- revolution slider starts -->
-                <div id="rev_slider_279_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="restaurant-header" 
-                style="
+                <div id="rev_slider_279_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="restaurant-header" style="
                     margin: 0px auto;
                     background-color: #474d4b;
                     padding: 0px;
@@ -603,6 +279,7 @@
                         <ul>
                             <li class="slider-color-schema-dark" data-index="rs-2" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
                                 <!-- main image for revolution slider -->
+                                <img alt="image description" src="{{asset('assets/img/slider/img-03.jpg')}}" data-lazyload="{{('assets/img/slider/img-03.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
 
                                 <div class="tp-caption tp-resizeme" id="slide-897-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['160','120','-120','-70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
                                     z-index: 9;
@@ -641,7 +318,7 @@
 
                             <li data-index="rs-81" data-transition="slideoverup" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="The Menu" data-description="">
                                 <!-- main image for revolution slide -->
-                                <img alt="image description" src="{{asset('assets/img/banner/img-01.jpg')}}" data-lazyload="{{('assets/img/banner/img-01.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
+                                <img alt="image description" src="{{asset('assets/img/slider/img-01.jpg')}}" data-lazyload="{{('assets/img/slider/img-01.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
 
                                 <div class="tp-caption tp-resizeme" id="slide-897-layer1-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['160','120','-120','-70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
                                     z-index: 9;
@@ -663,7 +340,48 @@
                                     ADEVENTURE TOUR TEMPLATE
                                 </div>
 
-         
+
+
+                                <div class="tp-caption tp-resizeme banner-heading-sub rs-parallaxlevel-10" data-x="['center','center','center','center']" data-hoffset="['30','30','30','20']" data-y="['top','top','middle','middle']" data-voffset="['330','280','60','60']" data-fontsize="['60','60','60','40']" data-lineheight="['110','110','100','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
+                                z-index: 8;
+                                padding-right: 10px;
+                                text-indent: 5px;
+                                font-weight: 900;
+                                white-space: nowrap;
+                                ">
+                                    2016
+                                </div>
+
+                                <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer1-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','160','180','150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="800" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-responsive_offset="on">
+                                    <a class="btn btn-banner" href="#">PURCHASE</a>
+                                </div>
+                            </li>
+
+                            <li data-index="rs-81" data-transition="slideoverup" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="The Menu" data-description="">
+                                <!-- main image for revolution slide -->
+                                <img alt="image description" src="{{asset('assets/img/slider/img-02.jpg')}}" data-lazyload="{{('assets/img/slider/img-02.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
+
+                                <div class="tp-caption tp-resizeme" id="slide-897-layer1-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['160','120','-120','-70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
+                                    z-index: 9;
+                                    white-space: nowrap;
+                                    font-size: 60px;
+                                    line-height: 100px;
+                                    text-align: center;
+                                    ">
+                                    <span class="icon-hiking-camping"></span>
+                                </div>
+
+                                <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['280','240','10','20']" data-fontsize="['48','48','44','28']" data-lineheight="['85','85','50','50']" data-width="['1200','1000','750','480']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
+                                    z-index: 7;
+                                    letter-spacing: 0;
+                                    font-weight: 100;
+                                    text-align: center;
+                                    color: #ffffff;
+                                    ">
+                                    ADEVENTURE TOUR TEMPLATE
+                                </div>
+
+
 
                                 <div class="tp-caption tp-resizeme banner-heading-sub rs-parallaxlevel-10" data-x="['center','center','center','center']" data-hoffset="['30','30','30','20']" data-y="['top','top','middle','middle']" data-voffset="['330','280','60','60']" data-fontsize="['60','60','60','40']" data-lineheight="['110','110','100','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
                                 z-index: 8;
@@ -688,65 +406,65 @@
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-bungee"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/1.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Bungee Jump</span>
+                                    <span class="info">Viagens Nacionais</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-hiking"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/2.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Hiking Trips</span>
+                                    <span class="info">Viagens</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-wildlife"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/3.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Wildlife Safari</span>
+                                    <span class="info">Cruseiro</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-peak-climbing"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/4.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Peak Climbing</span>
+                                    <span class="info">Safari</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-mountain-biking"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/5.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Mount Biking</span>
+                                    <span class="info">Passeios</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-scuba-diving"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/6.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Scuba Diving</span>
+                                    <span class="info">Passagens</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-hunting"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/4.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Hunting Trip</span>
+                                    <span class="info">Safari</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="ico">
-                                        <span class="icon-boating"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/2.png')}}" alt="image description" />
                                     </span>
-                                    <span class="info">Sailing Trips</span>
+                                    <span class="info">Viagens</span>
                                 </a>
                             </li>
                         </ul>
@@ -759,17 +477,6 @@
         <!-- main footer -->
         <footer id="footer">
             <div class="container">
-                <!-- newsletter form -->
-                <form action="https://html.waituk.com/entrada/php/subscribe.html" id="signup" method="post" class="newsletter-form">
-                    <fieldset>
-                        <div class="input-holder">
-                            <input type="email" class="form-control" placeholder="Email Address" name="subscriber_email" id="subscriber_email" />
-                            <input type="submit" value="GO" />
-                        </div>
-                        <span class="info" id="subscribe_message">To receive news, updates and tour packages via email.</span>
-                    </fieldset>
-                </form>
-                <!-- footer links -->
                 <div class="row footer-holder">
                     <nav class="col-sm-4 col-lg-2 footer-nav active">
                         <h3>About Entrada</h3>
@@ -816,7 +523,7 @@
                         </ul>
                     </nav>
                     <nav class="col-sm-4 col-lg-2 footer-nav">
-                        <h3>ask Entrada</h3>
+                        <h3>Pergunta-nos</h3>
                         <ul class="slide">
                             <li><a href="#">Why Entrada?</a></li>
                             <li><a href="#">Ask an Expert</a></li>
@@ -826,23 +533,23 @@
                         </ul>
                     </nav>
                     <nav class="col-sm-4 col-lg-2 footer-nav last">
-                        <h3>contact Entrada</h3>
+                        <h3>Contacte-nos</h3>
                         <ul class="slide address-block">
                             <li class="wrap-text">
                                 <span class="icon-tel"></span>
-                                <a href="tel:02072077878">(020) 72077878</a>
+                                <a href="tel:+258820046681">+258 82 004 6681</a>
                             </li>
                             <li class="wrap-text">
                                 <span class="icon-fax"></span>
-                                <a href="tel:02088828282">(020) 88828282</a>
+                                <a href="tel:+258820046683">+258 82 004 6683</a>
                             </li>
                             <li class="wrap-text">
                                 <span class="icon-email"></span>
-                                <a href="mailto:info@entrada.com">info@entrada.com</a>
+                                <a href="mailto:info@entrada.com">info@simaratours</a>
                             </li>
                             <li>
                                 <span class="icon-home"></span>
-                                <address>707 London Road Isleworth, Middx TW7 7QD</address>
+                                <address>1.249 Maputo-Moçambique, Av. 24 de Julho</address>
                             </li>
                         </ul>
                     </nav>
