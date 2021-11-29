@@ -25,6 +25,7 @@
     <link media="all" rel="stylesheet" href="{{ asset('assets/css/main.css')}}" />
     <!-- link to revolution css  -->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/revolution/css/settings.css')}}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 
 <body>
@@ -640,7 +641,7 @@
 
                             <li data-index="rs-81" data-transition="slideoverup" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="The Menu" data-description="">
                                 <!-- main image for revolution slide -->
-                                <img alt="image description" src="{{asset('assets/img/banner/img-01.jpg')}}" data-lazyload="{{asset('assets/img/banner/img-02.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
+                                <img alt="image description" src="{{asset('assets/img/banner/img-01.jpg')}}" data-lazyload="{{('assets/img/banner/img-01.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
 
                                 <div class="tp-caption tp-resizeme" id="slide-897-layer1-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['160','120','-120','-70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
                                     z-index: 9;
