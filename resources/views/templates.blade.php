@@ -60,27 +60,27 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
                                         <ul>
-                                            <li><a href="index.html">Viagens</a></li>
+                                            <li><a href="#">Viagens</a></li>
                                             <li>
-                                                <a href="home-search-bar.html">Rent-a-Car</a>
+                                                <a href="#">Rent-a-Car</a>
                                             </li>
                                             <li>
-                                                <a href="home-icon-search.html">Excuesões</a>
+                                                <a href="#">Excuesões</a>
                                             </li>
                                             <li>
-                                                <a href="home-revolution.html">Guia Turística</a>
+                                                <a href="#">Guia Turística</a>
                                             </li>
                                             <li>
-                                                <a href="home-parallax.html">Passagens Aéreas</a>
+                                                <a href="#">Passagens Aéreas</a>
                                             </li>
                                             <li>
-                                                <a href="home-html5-video.html">Seguros de Viagens</a>
+                                                <a href="#">Seguros de Viagens</a>
                                             </li>
                                             <li>
-                                                <a href="home-static-image.html">Reservas de Hotéis</a>
+                                                <a href="#">Reservas de Hotéis</a>
                                             </li>
                                             <li>
-                                                <a href="home-static-image.html">Organizações de Seminários</a>
+                                                <a href="#">Organizações de Seminários</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -95,10 +95,10 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="hiking-camping.html"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="hiking-camping.html">Dia Mundial de HIV</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Dia Mundial de HIV</a></strong>
                                                                 <p>
                                                                     O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
                                                                     internacionalmente definido como o dia 1° de dezembro, é uma data voltada
@@ -110,10 +110,10 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="jungle-safari.html"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" style="width: 50%;" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="jungle-safari.html">Reserva de Maputo</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Reserva de Maputo</a></strong>
                                                                 <p>
                                                                     A Reserva de Elefantes de Maputo, oficialmente Reserva Especial de Maputo,
                                                                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito
@@ -125,50 +125,49 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="city-tour.html"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" style="width: 50%; height: 100%;"/></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="city-tour.html">África do Sul</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">África do Sul</a></strong>
                                                                 <p>
                                                                     África do Sul é um país seguro para viajar, inclusive para mulheres.
                                                                     Os crimes contra turistas são raros e, na maioria das vezes, limitam-se
                                                                     a furtos.
-                                                                    SOBRE NÓS             </p>
+                                                                    SOBRE NÓS
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="family-fun.html"><img src="{{asset('assets/img/generic/img-04.jpg')}}" height="215" width="370" alt="image description" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="family-fun.html">Family Fun</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Dia Mundial de HIV</a></strong>
                                                                 <p>
-                                                                    A community area is available on Trafalgar’s
-                                                                    website offering members the opportunity to
-                                                                    interact with fellow travelers by joining
-                                                                    groups, contributing to forums.
+                                                                    O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
+                                                                    internacionalmente definido como o dia 1° de dezembro, é uma data voltada
+                                                                    para que o mundo una
                                                                 </p>
                                                             </div>
-                                                       </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nós <b class="icon-angle-down"></b></a>
-                                </li>
+                                <li><a href="{{ route('sobre.index')}}">Sobre nós</a></li>
+
                                 <li class="visible-xs visible-sm">
-                                    <a href="login.html">
+                                    <a href="#">
                                         <span class="icon icon-user"></span>
                                         <span class="text">Login</span>
                                     </a>
                                 </li>
                                 <li class="hidden-xs hidden-sm v-divider">
-                                    <a href="login.html">
+                                    <a href="#">
                                         <span class="icon icon-user"></span>
                                     </a>
                                 </li>
