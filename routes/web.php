@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\GaleriaController;
 use App\Http\Controllers\InicioController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,5 @@ Route::get('/', function () {
 });
 
 Route::resource('inicio', InicioController::class);
+
+Route::resource('galeria', GaleriaController::class);
