@@ -5,9 +5,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Entrada</title>
+    <title>Simara</title>
     <!-- favion -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/img/favicon-16x16.png')}}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/img/logos/logo.png')}}" />
     <!-- link to font awesome -->
     <link media="all" rel="stylesheet" href="{{asset('assets/vendors/font-awesome/css/font-awesome.css')}}" />
     <!-- link to material icon font -->
@@ -29,11 +29,11 @@
 </head>
 
 <body>
-    <!-- <div class="preloader" id="pageLoad">
-        <div class="holder">
-            <div class="coffee_cup"></div>
+    <div class="preloader" id="pageLoad">
+    <div class="holder">
+            <img class="normal" src="{{asset('assets/img/logos/logo.png')}}" alt="Simara" />
         </div>
-    </div> -->
+    </div>
     <!-- main wrapper -->
     <div id="wrapper">
         <div class="page-wrapper">
@@ -42,7 +42,7 @@
                 <div class="container-fluid">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{ route ('inicio.index')}}">
                             <img class="normal" src="{{asset('assets/img/logos/logo.png')}}" alt="Simara" />
                             <img class="gray-logo" src="{{asset('assets/img/logos/logo.png')}}" alt="Simara" />
                         </a>
@@ -91,7 +91,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="tour-detail.html">Galeria</a></li>
+                                <li><a href="{{ route('galeria.index')}}">Galeria</a></li>
                                 <li class="dropdown has-mega-dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ultímos Postes <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
@@ -116,7 +116,7 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="jungle-safari.html"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" /></a>
+                                                                <a href="jungle-safari.html"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" style="width: 50%;" /></a>
                                                             </div>
                                                             <div class="des">
                                                                 <strong class="title"><a href="jungle-safari.html">Reserva de Maputo</a></strong>
@@ -131,7 +131,7 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="city-tour.html"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" /></a>
+                                                                <a href="city-tour.html"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" style="width: 50%; height: 100%;"/></a>
                                                             </div>
                                                             <div class="des">
                                                                 <strong class="title"><a href="city-tour.html">África do Sul</a></strong>
@@ -288,7 +288,7 @@
                                     line-height: 100px;
                                     text-align: center;
                                     ">
-                                    <span class="icon-wildlife"></span>
+                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/4.png')}}" alt="image description" />
                                 </div>
 
                                 <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['280','240','10','20']" data-fontsize="['48','48','44','28']" data-lineheight="['85','85','50','50']" data-width="['1200','1000','750','480']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
@@ -298,7 +298,7 @@
                                     text-align: center;
                                     color: #ffffff;
                                     ">
-                                    EXPEDITION OF UNEXPLORED
+                                    Explore o Mundo
                                 </div>
 
                                 <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['340','290','70','70']" data-fontsize="['60','60','60','40']" data-lineheight="['110','110','100','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
@@ -308,11 +308,11 @@
                                     font-weight: 900;
                                     white-space: nowrap;
                                     ">
-                                    TERRITORY
+                                    SAFARI
                                 </div>
 
                                 <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','160','180','150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1250" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-responsive_offset="on">
-                                    <a class="btn btn-banner" href="#">PURCHASE</a>
+                                    <a class="btn btn-banner" href="#">SAIBA MAIS</a>
                                 </div>
                             </li>
 
@@ -337,7 +337,7 @@
                                     text-align: center;
                                     color: #ffffff;
                                     ">
-                                    ADEVENTURE TOUR TEMPLATE
+                                    EXPLORE OS OCEANOS
                                 </div>
 
 
@@ -349,52 +349,11 @@
                                 font-weight: 900;
                                 white-space: nowrap;
                                 ">
-                                    2016
+                                    CRUSEIRO
                                 </div>
 
                                 <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer1-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','160','180','150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="800" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-responsive_offset="on">
-                                    <a class="btn btn-banner" href="#">PURCHASE</a>
-                                </div>
-                            </li>
-
-                            <li data-index="rs-81" data-transition="slideoverup" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="The Menu" data-description="">
-                                <!-- main image for revolution slide -->
-                                <img alt="image description" src="{{asset('assets/img/slider/img-02.jpg')}}" data-lazyload="{{('assets/img/slider/img-02.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
-
-                                <div class="tp-caption tp-resizeme" id="slide-897-layer1-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['160','120','-120','-70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
-                                    z-index: 9;
-                                    white-space: nowrap;
-                                    font-size: 60px;
-                                    line-height: 100px;
-                                    text-align: center;
-                                    ">
-                                    <span class="icon-hiking-camping"></span>
-                                </div>
-
-                                <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['280','240','10','20']" data-fontsize="['48','48','44','28']" data-lineheight="['85','85','50','50']" data-width="['1200','1000','750','480']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
-                                    z-index: 7;
-                                    letter-spacing: 0;
-                                    font-weight: 100;
-                                    text-align: center;
-                                    color: #ffffff;
-                                    ">
-                                    ADEVENTURE TOUR TEMPLATE
-                                </div>
-
-
-
-                                <div class="tp-caption tp-resizeme banner-heading-sub rs-parallaxlevel-10" data-x="['center','center','center','center']" data-hoffset="['30','30','30','20']" data-y="['top','top','middle','middle']" data-voffset="['330','280','60','60']" data-fontsize="['60','60','60','40']" data-lineheight="['110','110','100','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
-                                z-index: 8;
-                                padding-right: 10px;
-                                text-indent: 5px;
-                                font-weight: 900;
-                                white-space: nowrap;
-                                ">
-                                    2016
-                                </div>
-
-                                <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer1-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','160','180','150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="800" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-responsive_offset="on">
-                                    <a class="btn btn-banner" href="#">PURCHASE</a>
+                                    <a class="btn btn-banner" href="#">SAIBA MAIS</a>
                                 </div>
                             </li>
                         </ul>
@@ -554,72 +513,14 @@
                         </ul>
                     </nav>
                 </div>
-                <!-- social wrap -->
-                <ul class="social-wrap">
-                    <li class="facebook">
-                        <a href="#">
-                            <span class="icon-facebook"></span>
-                            <strong class="txt">Like Us</strong>
-                        </a>
-                    </li>
-                    <li class="twitter">
-                        <a href="#">
-                            <span class="icon-twitter"></span>
-                            <strong class="txt">Follow On</strong>
-                        </a>
-                    </li>
-                    <li class="google-plus">
-                        <a href="#">
-                            <span class="icon-google-plus"></span>
-                            <strong class="txt">+1 On Google</strong>
-                        </a>
-                    </li>
-                    <li class="vimeo">
-                        <a href="#">
-                            <span class="icon-vimeo"></span>
-                            <strong class="txt">Share At</strong>
-                        </a>
-                    </li>
-                    <li class="pin">
-                        <a href="#">
-                            <span class="icon-pin"></span>
-                            <strong class="txt">Pin It</strong>
-                        </a>
-                    </li>
-                    <li class="dribble">
-                        <a href="#">
-                            <span class="icon-dribble"></span>
-                            <strong class="txt">Dribbble</strong>
-                        </a>
-                    </li>
-                </ul>
             </div>
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <!-- copyright -->
-                            <strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2016 - Entrada - An
-                                Adventure Theme - by <a href="#">Waituk</a></strong>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="payment-option">
-                                <li>
-                                    <img src="{{asset('assets/img/footer/visa.png')}}" alt="visa" />
-                                </li>
-                                <li>
-                                    <img src="{{asset('assets/img/footer/mastercard.png')}}" height="20" width="33" alt="master card" />
-                                </li>
-                                <li>
-                                    <img src="{{asset('assets/img/footer/paypal.png')}}" height="20" width="72" alt="paypal" />
-                                </li>
-                                <li>
-                                    <img src="{{asset('assets/img/footer/maestro.png')}}" height="20" width="33" alt="maestro" />
-                                </li>
-                                <li>
-                                    <img src="{{asset('assets/img/footer/bank-transfer.png')}}" height="20" width="55" alt="bank transfer" />
-                                </li>
-                            </ul>
+                            <strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2021 - Simara 
+                             - Pela <a href="http://firsteducation.edu.mz/">FirstTech</a></strong>
                         </div>
                     </div>
                 </div>
