@@ -112,7 +112,7 @@
           <div class="container">
             <header class="content-heading">
               <h2 class="main-heading">ÚLTIMAS POSTAGENS</h2>
-              <span class="main-subtitle">Conira as últimas actualizações!</span>
+              <span class="main-subtitle">Confira as últimas actualizações!</span>
               <div class="seperator"></div>
             </header>
             <div class="content-holder">
@@ -233,12 +233,12 @@
                       <img src="{{asset('assets/img/post/africa.jpeg')}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="tour-detail.html">Reserva Especial de Maputo</a>
+                      <a href="#">Reserva Especial de Maputo</a>
                     </h3>
                     <span class="info">Por Adulto</span>
                     <aside class="meta">
                       <span class="country">
-                        <span class="icon-world"> JV43+2C8, Machate</span>
+                        <span class="icon-world"> Maputo, Moçambique</span>
                       </span>
                     </aside>
                     <p>
@@ -246,7 +246,7 @@
                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito 
                     de Matutuíne
                     </p>
-                    <a href="tour-detail.html" class="btn btn-default">Mais Detalhes</a>
+                    <a href="#" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>
@@ -266,12 +266,12 @@
                       <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="tour-detail.html">Complexo Mila</a>
+                      <a href="#">Complexo Mila</a>
                     </h3>
                     <span class="info">Por Pessoa</span>
                     <aside class="meta">
                       <span class="country">
-                        <span class="icon-world"> </span>12 Countries
+                        <span class="icon-world"> </span>Maputo, Moçambique
                       </span>
                     </aside>
                     <p>
@@ -279,7 +279,7 @@
                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito 
                     de Matutuíne
                     </p>
-                    <a href="tour-detail.html" class="btn btn-default">Mais Detalhes</a>
+                    <a href="#" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>
@@ -302,12 +302,12 @@
                       <img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="tour-detail.html">Sun City</a>
+                      <a href="#">Sun City</a>
                     </h3>
                     <span class="info">Por Pessoa</span>
                     <aside class="meta">
                       <span class="country">
-                        <span class="icon-world"> </span>12 Countries
+                        <span class="icon-world"> </span>Maputo, Moçambique
                       </span>
                     </aside>
                     <p>
@@ -315,7 +315,7 @@
                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito 
                     de Matutuíne
                     </p>
-                    <a href="tour-detail.html" class="btn btn-default">Mais Detalhes</a>
+                    <a href="#" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>
@@ -335,12 +335,12 @@
                       <img src="{{asset('assets/img/post/africa.jpeg')}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="tour-detail.html">Reserva Especial de Maputo</a>
+                      <a href="#">Reserva Especial de Maputo</a>
                     </h3>
                     <span class="info">Por Adulto</span>
                     <aside class="meta">
                       <span class="country">
-                        <span class="icon-world"> JV43+2C8, Machate</span>
+                        <span class="icon-world">Maputo, Moçambique</span>
                       </span>
                     </aside>
                     <p>
@@ -348,7 +348,7 @@
                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito 
                     de Matutuíne
                     </p>
-                    <a href="tour-detail.html" class="btn btn-default">Mais Detalhes</a>
+                    <a href="#" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>
@@ -368,12 +368,12 @@
                       <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="tour-detail.html">Complexo Mila</a>
+                      <a href="#">Complexo Mila</a>
                     </h3>
                     <span class="info">Por Pessoa</span>
                     <aside class="meta">
                       <span class="country">
-                        <span class="icon-world"> </span>12 Countries
+                        <span class="icon-world"> </span>Maputo, Moçambique
                       </span>
                     </aside>
                     <p>
@@ -381,7 +381,7 @@
                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito 
                     de Matutuíne
                     </p>
-                    <a href="tour-detail.html" class="btn btn-default">Mais Detalhes</a>
+                    <a href="#" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>
@@ -401,12 +401,12 @@
                       <img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="tour-detail.html">Sun City</a>
+                      <a href="#">Sun City</a>
                     </h3>
                     <span class="info">Por Pessoa</span>
                     <aside class="meta">
                       <span class="country">
-                        <span class="icon-world"> </span>12 Countries
+                        <span class="icon-world"> </span>Maputo, Moçambique
                       </span>
                     </aside>
                     <p>
@@ -414,7 +414,7 @@
                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito 
                     de Matutuíne
                     </p>
-                    <a href="tour-detail.html" class="btn btn-default">Mais Detalhes</a>
+                    <a href="#" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>
