@@ -30,7 +30,7 @@
 
 <body>
     <div class="preloader" id="pageLoad">
-    <div class="holder">
+        <div class="holder">
             <img class="normal" src="{{asset('assets/img/logos/logo.png')}}" alt="Simara" />
         </div>
     </div>
@@ -61,32 +61,32 @@
                         <div class="collapse navbar-collapse" id="nav">
                             <!-- main navbar -->
                             <ul class="nav navbar-nav">
-                                <li><a href="tour-detail.html">Início</a></li>
+                                <li><a href="{{ route('inicio.index')}}">Início</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
                                         <ul>
-                                            <li><a href="index.html">Viagens</a></li>
+                                            <li><a href="#">Viagens</a></li>
                                             <li>
-                                                <a href="home-search-bar.html">Rent-a-Car</a>
+                                                <a href="#">Rent-a-Car</a>
                                             </li>
                                             <li>
-                                                <a href="home-icon-search.html">Excuesões</a>
+                                                <a href="#">Excuesões</a>
                                             </li>
                                             <li>
-                                                <a href="home-revolution.html">Guia Turística</a>
+                                                <a href="#">Guia Turística</a>
                                             </li>
                                             <li>
-                                                <a href="home-parallax.html">Passagens Aéreas</a>
+                                                <a href="#">Passagens Aéreas</a>
                                             </li>
                                             <li>
-                                                <a href="home-html5-video.html">Seguros de Viagens</a>
+                                                <a href="#">Seguros de Viagens</a>
                                             </li>
                                             <li>
-                                                <a href="home-static-image.html">Reservas de Hotéis</a>
+                                                <a href="#">Reservas de Hotéis</a>
                                             </li>
                                             <li>
-                                                <a href="home-static-image.html">Organizações de Seminários</a>
+                                                <a href="#">Organizações de Seminários</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -101,10 +101,10 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="hiking-camping.html"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="hiking-camping.html">Dia Mundial de HIV</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Dia Mundial de HIV</a></strong>
                                                                 <p>
                                                                     O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
                                                                     internacionalmente definido como o dia 1° de dezembro, é uma data voltada
@@ -116,10 +116,10 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="jungle-safari.html"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" style="width: 50%;" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="jungle-safari.html">Reserva de Maputo</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Reserva de Maputo</a></strong>
                                                                 <p>
                                                                     A Reserva de Elefantes de Maputo, oficialmente Reserva Especial de Maputo,
                                                                     é uma área de conservação localizada no extremo sul de Moçambique, no distrito
@@ -131,42 +131,40 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="city-tour.html"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" style="width: 50%; height: 100%;"/></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="city-tour.html">África do Sul</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">África do Sul</a></strong>
                                                                 <p>
                                                                     África do Sul é um país seguro para viajar, inclusive para mulheres.
                                                                     Os crimes contra turistas são raros e, na maioria das vezes, limitam-se
                                                                     a furtos.
-                                                                    SOBRE NÓS             </p>
+                                                                    SOBRE NÓS
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="family-fun.html"><img src="{{asset('assets/img/generic/img-04.jpg')}}" height="215" width="370" alt="image description" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="family-fun.html">Family Fun</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Dia Mundial de HIV</a></strong>
                                                                 <p>
-                                                                    A community area is available on Trafalgar’s
-                                                                    website offering members the opportunity to
-                                                                    interact with fellow travelers by joining
-                                                                    groups, contributing to forums.
+                                                                    O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
+                                                                    internacionalmente definido como o dia 1° de dezembro, é uma data voltada
+                                                                    para que o mundo una
                                                                 </p>
                                                             </div>
-                                                       </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nós <b class="icon-angle-down"></b></a>
-                                </li>
+                                <li><a href="{{ route('sobre.index')}}">Sobre nós</a></li>
                                 <li class="visible-xs visible-sm">
                                     <a href="login.html">
                                         <span class="icon icon-user"></span>
@@ -288,7 +286,7 @@
                                     line-height: 100px;
                                     text-align: center;
                                     ">
-                                        <img width="80%" height="80%" src="{{asset('assets/img/botao/4.png')}}" alt="image description" />
+                                    <img width="80%" height="80%" src="{{asset('assets/img/botao/4.png')}}" alt="image description" />
                                 </div>
 
                                 <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['280','240','10','20']" data-fontsize="['48','48','44','28']" data-lineheight="['85','85','50','50']" data-width="['1200','1000','750','480']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
@@ -437,58 +435,39 @@
         <footer id="footer">
             <div class="container">
                 <div class="row footer-holder">
-                    <nav class="col-sm-4 col-lg-2 footer-nav active">
-                        <h3>About Entrada</h3>
+                    <nav class="col-sm-4 col-lg-3 footer-nav active">
+                        <h3>Sobre nós</h3>
                         <ul class="slide">
-                            <li><a href="#">The Company</a></li>
-                            <li><a href="#">Our Values</a></li>
-                            <li><a href="#">Responsiblity</a></li>
-                            <li><a href="#">Our Mission</a></li>
-                            <li><a href="#">Opportunity</a></li>
-                            <li><a href="#">Safety Concerns</a></li>
+                            <li><a href="{{ route('inicio.index')}}">A Simara</a></li>
+                            <li><a href="{{ route('sobre.index')}}">Modelo</a></li>
+                            <li><a href="{{ route('sobre.index')}}">Visão</a></li>
+                            <li><a href="{{ route('sobre.index')}}">Missão</a></li>
+                            <li><a href="{{ route('galeria.index')}}">Galeria</a></li>
+                            <li><a href="#">Serviços</a></li>
                         </ul>
                     </nav>
-                    <nav class="col-sm-4 col-lg-2 footer-nav">
-                        <h3>Destinations</h3>
+                    <nav class="col-sm-4 col-lg-3 footer-nav">
+                        <h3>Serviços</h3>
                         <ul class="slide">
-                            <li><a href="#">Nepal</a></li>
-                            <li><a href="#">Thailand</a></li>
-                            <li><a href="#">Vietnam</a></li>
-                            <li><a href="#">Fiji Island</a></li>
-                            <li><a href="#">United States</a></li>
-                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Viagens</a></li>
+                            <li><a href="#">Rent-a-Car</a></li>
+                            <li><a href="#">Excuesões</a></li>
+                            <li><a href="#">Guia Turística</a></li>
+                            <li><a href="#">Passagens Aéreas</a></li>
+                            <li><a href="#">Seguros de Viagens</a></li>
+                            <li><a href="#">Reservas de Hotéis</a></li>
+                            <li><a href="#">Organizações de Seminários</a></li>
                         </ul>
                     </nav>
-                    <nav class="col-sm-4 col-lg-2 footer-nav">
-                        <h3>themes</h3>
+                    <nav class="col-sm-4 col-lg-3 footer-nav">
+                        <h3>Destinos</h3>
                         <ul class="slide">
-                            <li><a href="#">Hiking and Camping</a></li>
-                            <li><a href="#">Trekking Tours</a></li>
-                            <li><a href="#">Jungle Safaris</a></li>
-                            <li><a href="#">Bungee Jumping</a></li>
-                            <li><a href="#">Wildlife &amp; Polar</a></li>
-                            <li><a href="#">Peak Climbing</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-sm-4 col-lg-2 footer-nav">
-                        <h3>reservation</h3>
-                        <ul class="slide">
-                            <li><a href="#">Booking Conditions</a></li>
-                            <li><a href="#">My Bookings</a></li>
-                            <li><a href="#">Refund Policy</a></li>
-                            <li><a href="#">Includes &amp; Excludes</a></li>
-                            <li><a href="#">Your Responsibilities</a></li>
-                            <li><a href="#">Order a Brochure</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-sm-4 col-lg-2 footer-nav">
-                        <h3>Pergunta-nos</h3>
-                        <ul class="slide">
-                            <li><a href="#">Why Entrada?</a></li>
-                            <li><a href="#">Ask an Expert</a></li>
-                            <li><a href="#">Safety Updates</a></li>
-                            <li><a href="#">We Help When...</a></li>
-                            <li><a href="#">Personal Matters</a></li>
+                            <li><a href="#">Índia</a></li>
+                            <li><a href="#">Instabul - Turquia</a></li>
+                            <li><a href="#">Lisboa - Portugal</a></li>
+                            <li><a href="#">Doha - Catar</a></li>
+                            <li><a href="#">Brasil</a></li>
+                            <li><a href="#">Tailãndia</a></li>
                         </ul>
                     </nav>
                     <nav class="col-sm-4 col-lg-2 footer-nav last">
@@ -519,8 +498,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <!-- copyright -->
-                            <strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2021 - Simara 
-                             - Pela <a href="http://firsteducation.edu.mz/">FirstTech</a></strong>
+                            <strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2021 - Simara
+                                - Pela <a href="http://firsteducation.edu.mz/">FirstTech</a></strong>
                         </div>
                     </div>
                 </div>
