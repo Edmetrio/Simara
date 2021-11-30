@@ -21,7 +21,7 @@
     <div class="inner-main common-spacing container">
         <ul class="gallery-list has-center gallery-main">
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-10-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/africa.jpeg')}}" title="África do Sul">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/africa.jpeg')}}" height="750" width="450" alt="image description" />
                     </span>
@@ -34,7 +34,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-11-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/reserva.jpeg')}}" title="Reserva de Maputo">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -47,7 +47,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-12-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/sida.jpeg')}}" title="Dia Mundial da HIV">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/sida.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -60,7 +60,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-13-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/africa.jpeg')}}" title="África do Sul">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/africa.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -73,7 +73,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-14-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/sida.jpeg')}}" title="Dia Mundial da HIV">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/sida.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -86,7 +86,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-15-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/reserva.jpeg')}}" title="Reserva de Maputo">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -99,7 +99,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-16-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/africa.jpeg')}}" title="África do Sul">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/africa.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -112,7 +112,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-17-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/reserva.jpeg')}}" title="Reserva de Maputo">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
@@ -125,7 +125,7 @@
                 </a>
             </li>
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-18-2.jpg" title="Caption Goes Here">
+                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/sida.jpeg')}}" title="Dia Mundial da HIV">
                     <span class="img-holder">
                         <img src="{{asset('assets/img/post/sida.jpeg')}}" height="240" width="370" alt="image description" />
                     </span>
