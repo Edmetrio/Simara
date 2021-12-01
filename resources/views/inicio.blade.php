@@ -7,7 +7,7 @@
           <div class="container">
             <header class="content-heading">
               <h2 class="main-heading">Nossos Destinos</h2>
-              <span class="main-subtitle">Nossos Destino é apresentado todos sítios que trabalhamos.</span>
+              <span class="main-subtitle">Nessa Secção é apresentada os nossos principais destinos ao mundo fora.</span>
               <div class="seperator"></div>
             </header>
             <div class="adventure-holder gallery-home-holder">
@@ -19,63 +19,63 @@
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-01.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-bird"></span>
-                        <span class="info">aerial</span>
+                        <span class="info">América</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-02.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-peak"></span>
-                        <span class="info">land</span>
+                        <span class="info">Terra</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-03.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-water"></span>
-                        <span class="info">water</span>
+                        <span class="info">Água</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-04.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-asia"></span>
-                        <span class="info">asia</span>
+                        <span class="info">Ásia</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-05.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-arctic"></span>
-                        <span class="info">arctic</span>
+                        <span class="info">Europa</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-06.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-africa"></span>
-                        <span class="info">africa</span>
+                        <span class="info">África</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-07.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-plant"></span>
-                        <span class="info">nature</span>
+                        <span class="info">Natureza</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-08.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-wildlife"></span>
-                        <span class="info">wildness</span>
+                        <span class="info">Selvagem</span>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-09.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-diamond"></span>
-                        <span class="info">all</span>
+                        <span class="info">Tudo</span>
                       </a>
                     </li>
                   </ul>
@@ -84,14 +84,12 @@
                   <div class="centered">
                     <h2 class="intro-heading">Vivendo uma Vida de Aventura</h2>
                     <p class="intro">
-                      This is Photoshop's version of Lorem Ipsum. Proin
-                      gravida nibh vel velit auctor aliquet. Aenean
-                      sollicitudin, lorem quis bibendum auctor, nisi elit
-                      consequat ipsum, nec sagittis sem nibh id elit. Duis sed
-                      odio sit amet nibh vulputate cursus a sit amet mauris.
-                      Morbi accumsan ipsum velit.
+                    Cada viagem é única e transformadora, você sempre irá voltar diferente de quando embarcou. 
+                    São experiências capazes de marcar a sua vida e trazer um desejo profundo de conhecer o mundo 
+                    cada vez mais. Por isso a A <strong>SIMARA</strong>  disponibiliza algumas exclusividades com vantagens 
+                    incríveis para tornar tudo ainda mais especial. Que tal escolher o seu próximo destino?
                     </p>
-                    <a href="#" class="btn btn-info-sub btn-md btn-shadow radius">Dig More</a>
+                    <a href="{{ route('sobre.index')}}" class="btn btn-info-sub btn-md btn-shadow radius">SAIBA MAIS</a>
                   </div>
                 </div>
               </div>
@@ -253,7 +251,7 @@
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><span class="icon-linkedin"></span></a>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
                       <span class="price">A partir de <span>4.600,00</span></span>
@@ -283,13 +281,10 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><i class="icon-instagram"></i></a>
-                        </li>
-                        <li>
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><span class="icon-linkedin"></span></a>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
                       <span class="price">A partir de <span>3.100,00</span></span>
@@ -322,7 +317,7 @@
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><span class="icon-linkedin"></span></a>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
                       <span class="price">A partir de <span>13.540,00</span></span>
@@ -355,7 +350,7 @@
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><span class="icon-linkedin"></span></a>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
                       <span class="price">A partir de <span>4.600,00</span></span>
@@ -388,7 +383,7 @@
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><span class="icon-linkedin"></span></a>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
                       <span class="price">A partir de <span>3.100,00</span></span>
@@ -421,7 +416,7 @@
                           <a href="#"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><span class="icon-linkedin"></span></a>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
                       <span class="price">A partir de <span>13.540,00</span></span>
@@ -529,7 +524,7 @@
               <div class="slide">
                 <blockquote class="testimonial-quote">
                   <div class="img">
-                    <img src="{{asset('assets/img/thumbs/img-1.jpg')}}" height="112" width="112" alt="image description" />
+                    <img src="{{asset('assets/img/thumbs/img-01.jpg')}}" height="112" width="112" alt="image description" />
                   </div>
                   <div class="text">
                     <cite>Artur Vilanculos - CEO</cite>
@@ -545,7 +540,7 @@
               <div class="slide">
                 <blockquote class="testimonial-quote">
                   <div class="img">
-                    <img src="{{asset('assets/img/thumbs/img-02.jpg')}}" height="112" width="112" alt="image description" />
+                    <img src="{{asset('assets/img/thumbs/img-03.jpg')}}" height="112" width="112" alt="image description" />
                   </div>
                   <div class="text">
                     <cite>Vânia de Sousa - Marketing</cite>
@@ -561,7 +556,7 @@
               <div class="slide">
                 <blockquote class="testimonial-quote">
                   <div class="img">
-                    <img src="{{asset('assets/img/thumbs/img-03.jpg')}}" height="112" width="112" alt="image description" />
+                    <img src="{{asset('assets/img/thumbs/img-02.jpg')}}" height="112" width="112" alt="image description" />
                   </div>
                   <div class="text">
                     <cite>Rivaldo Macuacua - Informático</cite>
