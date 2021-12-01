@@ -166,13 +166,13 @@
                                 </li>
                                 <li><a href="{{ route('sobre.index')}}">Sobre nós</a></li>
                                 <li class="visible-xs visible-sm">
-                                    <a href="login.html">
+                                    <a href="#">
                                         <span class="icon icon-user"></span>
                                         <span class="text">Login</span>
                                     </a>
                                 </li>
                                 <li class="hidden-xs hidden-sm v-divider">
-                                    <a href="login.html">
+                                    <a href="#">
                                         <span class="icon icon-user"></span>
                                     </a>
                                 </li>
@@ -196,7 +196,7 @@
                             <div class="trip-form trip-form-v2 trip-search-main">
                                 <div class="trip-form-wrap">
                                     <div class="holder">
-                                        <label>Departing</label>
+                                        <label>Partida</label>
                                         <div class="select-holder">
                                             <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
                                                 <input class="form-control" type="text" readonly />
@@ -205,7 +205,7 @@
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label>Returning</label>
+                                        <label>Retorno</label>
                                         <div class="select-holder">
                                             <div id="datepicker1" class="input-group date" data-date-format="mm-dd-yyyy">
                                                 <input class="form-control" type="text" readonly />
@@ -214,47 +214,46 @@
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label for="select-region">Select Region</label>
+                                        <label for="select-region">Seleccione a Região</label>
                                         <div class="select-holder">
                                             <select class="trip-select trip-select-v2 region" name="region" id="select-region">
-                                                <option value="select">Africa</option>
-                                                <option value="select">Arctic</option>
-                                                <option value="select">Asia</option>
-                                                <option value="select">Europe</option>
-                                                <option value="select">Oceanaia</option>
+                                                <option value="select">África</option>
+                                                <option value="select">Ártica</option>
+                                                <option value="select">Ásia</option>
+                                                <option value="select">Europa</option>
+                                                <option value="select">Oceânia</option>
                                                 <option value="select">Polar</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label for="select-activity">Select Activity</label>
+                                        <label for="select-activity">SELECCIONE ACTIVIDADE</label>
                                         <div class="select-holder">
                                             <select class="trip-select trip-select-v2 acitvity" name="activity" id="select-activity">
-                                                <option value="Holiday Type">Holiday Type</option>
-                                                <option value="Holiday Type">Beach Holidays</option>
-                                                <option value="Holiday Type">Weekend Trips</option>
-                                                <option value="Holiday Type">Summer and Sun</option>
-                                                <option value="Holiday Type">Water Sports</option>
-                                                <option value="Holiday Type">Scuba Diving</option>
+                                                <option value="Holiday Type">Tipo de Férias</option>
+                                                <option value="Holiday Type">Férias na Praia</option>
+                                                <option value="Holiday Type">Viagens de fim de semana</option>
+                                                <option value="Holiday Type">Verão e sol</option>
+                                                <option value="Holiday Type">Esportes Aquáticos</option>
+                                                <option value="Holiday Type">Mergulho</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label for="price-range">Price Range</label>
+                                        <label for="price-range">FAIXA DE PREÇO</label>
                                         <div class="select-holder">
                                             <select class="trip-select trip-select-v2 price" name="activity" id="price-range">
-                                                <option value="Price Range">Price Range</option>
-                                                <option value="Price Range">$1 - $499</option>
-                                                <option value="Price Range">$500 - $999</option>
-                                                <option value="Price Range">$1000 - $1499</option>
-                                                <option value="Price Range">$1500 - $2999</option>
-                                                <option value="Price Range">$3000+</option>
+                                                <option value="Price Range">FAIXA DE PREÇO</option>
+                                                <option value="Price Range">1.000,00MT - 10.000,00MT</option>
+                                                <option value="Price Range">$11.000,00MT - 50.000,00MT</option>
+                                                <option value="Price Range">60.000,00MT - 100.000,00MT</option>
+                                                <option value="Price Range">100.000,00MT - 1.000.000,00MT</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="holder">
                                         <button class="btn btn-trip btn-trip-v2" type="submit">
-                                            Find Tours
+                                            Procurar
                                         </button>
                                     </div>
                                 </div>
@@ -286,7 +285,7 @@
                                     line-height: 100px;
                                     text-align: center;
                                     ">
-                                    <img width="80%" height="80%" src="{{asset('assets/img/botao/4.png')}}" alt="image description" />
+                                    <img width="80%" height="80%" src="{{asset('assets/img/iconslide/3.png')}}" alt="image description" />
                                 </div>
 
                                 <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['280','240','10','20']" data-fontsize="['48','48','44','28']" data-lineheight="['85','85','50','50']" data-width="['1200','1000','750','480']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
@@ -305,19 +304,20 @@
                                     text-indent: 5px;
                                     font-weight: 900;
                                     white-space: nowrap;
+                                    color: #fff;
                                     ">
                                     SAFARI
                                 </div>
 
                                 <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','160','180','150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1250" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-responsive_offset="on">
-                                    <a class="btn btn-banner" href="#">SAIBA MAIS</a>
+                                    <a class="btn btn-banner" href="#" style="color: #fff">SAIBA MAIS</a>
                                 </div>
                             </li>
 
                             <li data-index="rs-81" data-transition="slideoverup" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="The Menu" data-description="">
                                 <!-- main image for revolution slide -->
-                                <img alt="image description" src="{{asset('assets/img/slider/img-01.jpg')}}" data-lazyload="{{('assets/img/slider/img-01.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
-
+                                <img alt="image description" src="{{asset('assets/img/slider/img-02.jpg')}}" data-lazyload="{{('assets/img/slider/img-02.jpg')}}" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina />
+                               
                                 <div class="tp-caption tp-resizeme" id="slide-897-layer1-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['160','120','-120','-70']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
                                     z-index: 9;
                                     white-space: nowrap;
@@ -325,7 +325,7 @@
                                     line-height: 100px;
                                     text-align: center;
                                     ">
-                                    <span class="icon-hiking-camping"></span>
+                                     <img width="80%" height="80%" src="{{asset('assets/img/iconslide/4.png')}}" alt="image description" />
                                 </div>
 
                                 <div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['280','240','10','20']" data-fontsize="['48','48','44','28']" data-lineheight="['85','85','50','50']" data-width="['1200','1000','750','480']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="
@@ -346,12 +346,13 @@
                                 text-indent: 5px;
                                 font-weight: 900;
                                 white-space: nowrap;
+                                color: #fff;
                                 ">
-                                    CRUSEIRO
+                                CRUSEIROS
                                 </div>
 
                                 <div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer1-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','160','180','150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="800" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-responsive_offset="on">
-                                    <a class="btn btn-banner" href="#">SAIBA MAIS</a>
+                                    <a class="btn btn-banner" href="#" style="color: #fff;">SAIBA MAIS</a>
                                 </div>
                             </li>
                         </ul>
