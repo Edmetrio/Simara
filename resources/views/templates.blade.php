@@ -189,9 +189,9 @@
                                 <span class="icon-cross"></span>
                             </a>
                             <div class="trip-form trip-form-v2 trip-search-main">
-                                <div class="trip-form-wrap">
+                            <div class="trip-form-wrap">
                                     <div class="holder">
-                                        <label>Departing</label>
+                                        <label>Partida</label>
                                         <div class="select-holder">
                                             <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
                                                 <input class="form-control" type="text" readonly />
@@ -200,7 +200,7 @@
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label>Returning</label>
+                                        <label>Retorno</label>
                                         <div class="select-holder">
                                             <div id="datepicker1" class="input-group date" data-date-format="mm-dd-yyyy">
                                                 <input class="form-control" type="text" readonly />
@@ -209,47 +209,46 @@
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label for="select-region">Select Region</label>
+                                        <label for="select-region">Seleccione a Região</label>
                                         <div class="select-holder">
                                             <select class="trip-select trip-select-v2 region" name="region" id="select-region">
-                                                <option value="select">Africa</option>
-                                                <option value="select">Arctic</option>
-                                                <option value="select">Asia</option>
-                                                <option value="select">Europe</option>
-                                                <option value="select">Oceanaia</option>
+                                                <option value="select">África</option>
+                                                <option value="select">Ártica</option>
+                                                <option value="select">Ásia</option>
+                                                <option value="select">Europa</option>
+                                                <option value="select">Oceânia</option>
                                                 <option value="select">Polar</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label for="select-activity">Select Activity</label>
+                                        <label for="select-activity">SELECCIONE ACTIVIDADE</label>
                                         <div class="select-holder">
                                             <select class="trip-select trip-select-v2 acitvity" name="activity" id="select-activity">
-                                                <option value="Holiday Type">Holiday Type</option>
-                                                <option value="Holiday Type">Beach Holidays</option>
-                                                <option value="Holiday Type">Weekend Trips</option>
-                                                <option value="Holiday Type">Summer and Sun</option>
-                                                <option value="Holiday Type">Water Sports</option>
-                                                <option value="Holiday Type">Scuba Diving</option>
+                                                <option value="Holiday Type">Tipo de Férias</option>
+                                                <option value="Holiday Type">Férias na Praia</option>
+                                                <option value="Holiday Type">Viagens de fim de semana</option>
+                                                <option value="Holiday Type">Verão e sol</option>
+                                                <option value="Holiday Type">Esportes Aquáticos</option>
+                                                <option value="Holiday Type">Mergulho</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="holder">
-                                        <label for="price-range">Price Range</label>
+                                        <label for="price-range">FAIXA DE PREÇO</label>
                                         <div class="select-holder">
                                             <select class="trip-select trip-select-v2 price" name="activity" id="price-range">
-                                                <option value="Price Range">Price Range</option>
-                                                <option value="Price Range">$1 - $499</option>
-                                                <option value="Price Range">$500 - $999</option>
-                                                <option value="Price Range">$1000 - $1499</option>
-                                                <option value="Price Range">$1500 - $2999</option>
-                                                <option value="Price Range">$3000+</option>
+                                                <option value="Price Range">FAIXA DE PREÇO</option>
+                                                <option value="Price Range">1.000,00MT - 10.000,00MT</option>
+                                                <option value="Price Range">$11.000,00MT - 50.000,00MT</option>
+                                                <option value="Price Range">60.000,00MT - 100.000,00MT</option>
+                                                <option value="Price Range">100.000,00MT - 1.000.000,00MT</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="holder">
                                         <button class="btn btn-trip btn-trip-v2" type="submit">
-                                            Find Tours
+                                            Procurar
                                         </button>
                                     </div>
                                 </div>
