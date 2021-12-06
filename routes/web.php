@@ -26,3 +26,5 @@ Route::resource('inicio', InicioController::class);
 Route::resource('galeria', GaleriaController::class);
 
 Route::resource('sobre', SobreController::class);
+
+Route::resource('acerca', SobreController::class);
