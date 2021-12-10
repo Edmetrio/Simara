@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Models\Pacote;
+use App\Models\Models\Post;
+use App\Models\Models\Servico;
 
 use Illuminate\Http\Request;
 
@@ -13,7 +16,10 @@ class SobreController extends Controller
      */
     public function index()
     {
-        return view('sobre');
+        $pacote = Pacote::orderBy('id', 'desc')->get();
+        $ultimo = Post::orderBy('id', 'desc')->paginate(4);
+        $servico = Servico::orderBy('id', 'desc')->get();
+        return view('sobre', compact('pacote','ultimo','servico'));
     }
 
     /**
