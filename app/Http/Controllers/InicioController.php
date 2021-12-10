@@ -1,6 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Models\Depoimento;
+use App\Models\Models\Pacote;
+use App\Models\Models\Post;
+use App\Models\Models\Companhia;
+use App\Models\Models\Servico;
+
 
 use Illuminate\Http\Request;
 
@@ -13,7 +19,13 @@ class InicioController extends Controller
      */
     public function index()
     {
-        return view('inicio');
+        $depoimento = Depoimento::orderBy('id', 'desc')->get();
+        $pacote = Pacote::orderBy('id', 'desc')->get();
+        $post = Post::orderBy('id', 'desc')->get();
+        $ultimo = Post::orderBy('id', 'desc')->paginate(4);
+        $companhia = Companhia::orderBy('id', 'desc')->get();
+        $servico = Servico::orderBy('id', 'desc')->get();
+        return view('inicio', compact('depoimento','pacote','post','companhia','ultimo','servico'));
     }
 
     /**
