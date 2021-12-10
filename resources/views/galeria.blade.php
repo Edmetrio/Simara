@@ -20,123 +20,21 @@
     </div>
     <div class="inner-main common-spacing container">
         <ul class="gallery-list has-center gallery-main">
+            @foreach($pacote as $p)
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/africa.jpeg')}}" title="África do Sul">
+                <a class="fancybox" data-fancybox-group="group" href="{{url("pacote/$p->id")}}" title="{{$p->titulo}}">
                     <span class="img-holder">
-                        <img src="{{asset('assets/img/post/africa.jpeg')}}" height="750" width="450" alt="image description" />
+                        <img src="assets/images/pacote/icon/{{$p->icon}}" height="240" width="370" alt="image description" />
                     </span>
                     <span class="caption">
                         <span class="centered">
-                            <strong class="title">África do Sul</strong>
-                            <span class="sub-text">Vamos viajar a África do Sul</span>
+                            <strong class="title">{{$p->titulo}}</strong>
+                            <span class="sub-text">{{$p->titulo}} -  {{$p->subtitulo}}</span>
                         </span>
                     </span>
                 </a>
             </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/reserva.jpeg')}}" title="Reserva de Maputo">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">Reserva de Maputo</strong>
-                            <span class="sub-text">Explore as reservas de Maputo</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/sida.jpeg')}}" title="Dia Mundial da HIV">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/sida.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">Dia Mundial de HIV</strong>
-                            <span class="sub-text">1 de Dezembro -  Dia Mundial de HIV</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/africa.jpeg')}}" title="África do Sul">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/africa.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">África do Sul</strong>
-                            <span class="sub-text">Vamos viajar a África do Sul</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/sida.jpeg')}}" title="Dia Mundial da HIV">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/sida.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">Dia Mundial de HIV</strong>
-                            <span class="sub-text">1 de Dezembro -  Dia Mundial de HIV</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/reserva.jpeg')}}" title="Reserva de Maputo">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">Reserva de Maputo</strong>
-                            <span class="sub-text">Explore as reservas de Maputo</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/africa.jpeg')}}" title="África do Sul">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/africa.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">África do Sul</strong>
-                            <span class="sub-text">Vamos viajar a África do Sul</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/reserva.jpeg')}}" title="Reserva de Maputo">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/reserva.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">Reserva de Maputo</strong>
-                            <span class="sub-text">Explore as reservas de Maputo</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{asset('assets/img/post/sida.jpeg')}}" title="Dia Mundial da HIV">
-                    <span class="img-holder">
-                        <img src="{{asset('assets/img/post/sida.jpeg')}}" height="240" width="370" alt="image description" />
-                    </span>
-                    <span class="caption">
-                        <span class="centered">
-                            <strong class="title">Dia Mundial de HIV</strong>
-                            <span class="sub-text">1 de Dezembro -  Dia Mundial de HIV</span>
-                        </span>
-                    </span>
-                </a>
-            </li>
+            @endforeach
         </ul>
     </div>
 </main>
