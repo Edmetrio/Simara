@@ -60,28 +60,9 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
                                         <ul>
-                                            <li><a href="#">Viagens</a></li>
-                                            <li>
-                                                <a href="#">Rent-a-Car</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Excuesões</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Guia Turística</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Passagens Aéreas</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Seguros de Viagens</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Reservas de Hotéis</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Organizações de Seminários</a>
-                                            </li>
+                                            @foreach($servico as $s)
+                                            <li><a href="{{ route('servicoinfo.index')}}">{{$s->titulo}}</a></li>
+                                            @endforeach
                                         </ul>
                                     </div>
                                 </li>
@@ -92,67 +73,21 @@
                                         <div class="drop-wrap">
                                             <div class="drop-holder">
                                                 <div class="row">
+                                                @foreach($ultimo as $u)
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="image description" /></a>
                                                             </div>
                                                             <div class="des">
-                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Dia Mundial de HIV</a></strong>
+                                                                <strong class="title"><a href="{{ route('galeria.index')}}">{{$u->titulo}}</a></strong>
                                                                 <p>
-                                                                    O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
-                                                                    internacionalmente definido como o dia 1° de dezembro, é uma data voltada
-                                                                    para que o mundo una
+                                                                    {{$u->descricao}}
                                                                 </p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="col">
-                                                            <div class="img-wrap">
-                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/reserva.jpeg')}}" height="215" width="370" alt="image description" /></a>
-                                                            </div>
-                                                            <div class="des">
-                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Reserva de Maputo</a></strong>
-                                                                <p>
-                                                                    A Reserva de Elefantes de Maputo, oficialmente Reserva Especial de Maputo,
-                                                                    é uma área de conservação localizada no extremo sul de Moçambique, no distrito
-                                                                    de Matutuíne
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="col">
-                                                            <div class="img-wrap">
-                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/africa.jpeg')}}" height="215" width="370" alt="image description" /></a>
-                                                            </div>
-                                                            <div class="des">
-                                                                <strong class="title"><a href="{{ route('galeria.index')}}">África do Sul</a></strong>
-                                                                <p>
-                                                                    África do Sul é um país seguro para viajar, inclusive para mulheres.
-                                                                    Os crimes contra turistas são raros e, na maioria das vezes, limitam-se
-                                                                    a furtos.
-                                                                    SOBRE NÓS
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="col">
-                                                            <div class="img-wrap">
-                                                                <a href="{{ route('galeria.index')}}"><img src="{{asset('assets/img/post/sida.jpeg')}}" height="228" width="350" alt="image description" /></a>
-                                                            </div>
-                                                            <div class="des">
-                                                                <strong class="title"><a href="{{ route('galeria.index')}}">Dia Mundial de HIV</a></strong>
-                                                                <p>
-                                                                    O Dia Mundial de Combate à AIDS ou Dia Mundial de Luta Contra a SIDA,
-                                                                    internacionalmente definido como o dia 1° de dezembro, é uma data voltada
-                                                                    para que o mundo una
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    @endforeach
                                                 </div>
                                             </div>
                                         </div>
