@@ -71,6 +71,76 @@
                 </div>
               </div>
             </div>
+
+            
+            <aside class="recent-block recent-gray recent-wide-thumbnail">
+            <div class="container">
+              <h2 class="text-center text-uppercase">ÚLTIMAS PUBLICAÇÕES</h2>
+              <div class="row">
+              @foreach($servinfo->posts as $p)
+                <article class="col-sm-6 col-md-3 article">
+                  <div class="thumbnail">
+                    <h3 class="no-space">
+                      <a href="../assets/images/post/icon/{{$p->icon}}">{{$p->titulo}}</a>
+                    </h3>
+                    <strong class="info-title">{{$p->subtitulo}}</strong>
+                    <div class="img-wrap">
+                      <img
+                        src="../assets/images/post/icon/{{$p->icon}}"
+                        height="210"
+                        width="250"
+                        alt="image description"
+                      />
+                    </div>
+                    <footer>
+                      <p>
+                  {{$p->descricao}}.
+                  </p>
+                    </footer>
+                  </div>
+                </article>
+                @endforeach
+              </div>
+            </div>
+          </aside>
+
+          <aside class="recent-block recent-gray recent-wide-thumbnail">
+            <div class="container">
+              <h2 class="text-center text-uppercase">PACOTES E PREÇOS</h2>
+              <div class="row">
+              @foreach($servinfo->pacotes as $p)
+                <article class="col-sm-6 col-md-3 article">
+                  <div class="thumbnail">
+                    <h3 class="no-space">
+                      <a href="../assets/images/pacote/icon/{{$p->icon}}">{{$p->titulo}}</a>
+                    </h3>
+                    <strong class="info-title">{{$p->subtitulo}}</strong>
+                    <div class="img-wrap">
+                      <img
+                        src="../assets/images/pacote/icon/{{$p->icon}}"
+                        height="210"
+                        width="250"
+                        alt="image description"
+                      />
+                    </div>
+                    <footer>
+                      <ul class="social-networks">
+                        <li>
+                          <a href="#"><span class="icon-facebook"></span></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                        </li>
+                      </ul>
+                      <span class="price">A partir de <span>{{$p->preco}}</span></span>
+                    </footer>
+                  </div>
+                </article>
+                @endforeach
+              </div>
+            </div>
+          </aside>
+
           </div>
 
         </main>
