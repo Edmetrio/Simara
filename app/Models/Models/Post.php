@@ -15,5 +15,10 @@ class Post extends Model
     protected $guarded = [];
 
     protected $table = 'post';
-    protected $fillable = ['titulo','subtitulo','icon','descricao','estado'];
+    protected $fillable = ['titulo','subtitulo','icon','descricao','estado','servico_id'];
+
+    public function servicos()
+    {
+        return $this->hasOne(Servico::class, 'id', 'servico_id');
+    }
 }
