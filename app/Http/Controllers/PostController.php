@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Models\Post;
+use App\Models\Models\Servico;
 
 use Illuminate\Http\Request;
 
@@ -25,7 +26,8 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('createPost');
+        $servico = Servico::with(['posts'])->orderBy('id', 'desc')->get();
+        return view('createPost', compact('servico'));
     }
 
     /**
