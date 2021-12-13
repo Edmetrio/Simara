@@ -15,5 +15,5 @@ class Pacote extends Model
     protected $guarded = [];
 
     protected $table = 'pacote';
-    protected $fillable = ['titulo','subtitulo','icon','reserva','descricao','preco','cidade','estado'];
+    protected $fillable = ['titulo','subtitulo','icon','reserva','descricao','preco','cidade','servico_id','estado'];
 }
