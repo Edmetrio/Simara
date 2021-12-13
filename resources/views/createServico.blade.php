@@ -51,6 +51,11 @@
                             <label for="inputCity" class="col-form-label">Descrição</label>
                             <input type="text" class="form-control" placeholder="descricao" name="descricao" value="{{$servico->descricao  ?? ''}}" />
                         </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputCity" class="col-form-label">Texto</label>
+                            <input type="text" class="form-control" placeholder="texto" name="texto" value="{{$servico->texto  ?? ''}}" />
+                        </div>
                         @if(isset($servico))
                         <div class="form-group col-md-6">
                             <span><img src="{{asset('./assets/images/icon/'.$servico->icon)}}" style="width: 15%;" /></span>

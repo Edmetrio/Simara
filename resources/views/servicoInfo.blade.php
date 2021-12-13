@@ -39,11 +39,14 @@
                   <p>
                     {{$servic->descricao}}.
                   </p>
+                  <p>
+                    {{$servic->texto}}.
+                  </p>
                   <div class="btn-holder">
                     <a
                       href="#"
                       class="btn btn-info-sub btn-md btn-shadow radius"
-                      >Dig More</a
+                      >AGENDE</a
                     >
                   </div>
                 </div>

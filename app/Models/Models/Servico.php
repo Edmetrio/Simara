@@ -15,7 +15,7 @@ class Servico extends Model
     protected $guarded = [];
 
     protected $table = 'servico';
-    protected $fillable = ['titulo','subtitulo','foto','icon','descricao','estado'];
+    protected $fillable = ['titulo','subtitulo','foto','icon','descricao','texto','estado'];
 
     public function posts()
     {

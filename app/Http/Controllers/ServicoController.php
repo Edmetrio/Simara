@@ -41,7 +41,8 @@ class ServicoController extends Controller
             'subtitulo' => 'required',
             'foto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'icon' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-            'descricao' => 'required'
+            'descricao' => 'required',
+            'texto' => 'required'
         ]);
 
         $input = $request->all();
@@ -106,7 +107,8 @@ class ServicoController extends Controller
         $request->validate([
             'titulo' => 'required',
             'subtitulo' => 'required',
-            'descricao' => 'required'
+            'descricao' => 'required',
+            'texto' => 'required',
         ]);
 
         $input = $request->all();
