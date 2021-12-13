@@ -28,8 +28,9 @@
                             <thead>
                                 <tr>
                                     <th>Título</th>
-                                    <th>SubT]itulo</th>
+                                    <th>SubTítulo</th>
                                     <th>icon</th>
+                                    <th>Serviço</th>
                                     <th>Descrição</th>
                                     <th>Acções</th>
                                 </tr>
@@ -41,6 +42,7 @@
                                         <td>{{$p->titulo}}</td>
                                         <td>{{$p->subtitulo}}</td>
                                         <td><img class="img-fluid" src="assets/images/post/icon/{{$p->icon}}" style="width: 30px; text-align: center;" /></td>
+                                        <td>{{$p->servicos->titulo}}</td>
                                         <td>{{$p->descricao}}</td>
                                         <td role="gridcell"  style="display: flex; justify-content: flex-start;">
                                         <a href="{{url("post/$p->id/edit")}}">Alterar</a>
