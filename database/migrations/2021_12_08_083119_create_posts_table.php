@@ -15,6 +15,8 @@ class CreatePostsTable extends Migration
     {
         Schema::create('post', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->uuid('servico_id');
+            $table->foreign('servico_id')->references('id')->on('servico')->onDelete('cascade')->onUpdate('cascade');
             $table->string('titulo')->nullable();
             $table->string('subtitulo')->nullable();
             $table->string('icon')->nullable();
