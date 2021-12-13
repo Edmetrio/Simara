@@ -55,7 +55,8 @@ class ServicoinfoController extends Controller
         $pacote = Pacote::orderBy('id', 'desc')->get();
         $ultimo = Post::orderBy('id', 'desc')->paginate(4);
         $servico = Servico::orderBy('id', 'desc')->get();
-        return view('servicoInfo', compact('servic','servico','pacote','ultimo'));
+        $servinfo = Servico::with(['posts','pacotes'])->find($id);
+        return view('servicoInfo', compact('servic','servico','pacote','ultimo','servinfo'));
     }
 
     /**
