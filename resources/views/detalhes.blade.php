@@ -43,8 +43,8 @@
                   <ul class="reviews-info">
                     <li>
                       <div class="info-left">
-                        <strong class="title">Reviews</strong>
-                        <span class="value">75 Reviews</span>
+                        <strong class="title">Avaliações</strong>
+                        <span class="value">75 Avaliações</span>
                       </div>
                       <div class="info-right">
                         <div class="star-rating">
@@ -61,8 +61,8 @@
                     </li>
                     <li>
                       <div class="info-left">
-                        <strong class="title">Vacation Style</strong>
-                        <span class="value">Adult Group</span>
+                        <strong class="title">Estilo de Férias</strong>
+                        <span class="value">Grupo de Adultos</span>
                       </div>
                       <div class="info-right">
                         <ul class="ico-list">
@@ -76,13 +76,12 @@
                             <span class="icon icon-camping"></span>
                           </li>
                         </ul>
-                        <span class="value">Camping Trek</span>
                       </div>
                     </li>
                     <li>
                       <div class="info-left">
-                        <strong class="title">Activity Level</strong>
-                        <span class="value">Quite Tough</span>
+                        <strong class="title">Nível de Actividade</strong>
+                        <span class="value">Bastante resistente</span>
                       </div>
                       <div class="info-right">
                         <ul class="ico-list">
@@ -101,8 +100,8 @@
                     </li>
                     <li>
                       <div class="info-left">
-                        <strong class="title">Group Size</strong>
-                        <span class="value">Medium Grougs</span>
+                        <strong class="title">Tamanho do grupo</strong>
+                        <span class="value">Groupo Médio</span>
                       </div>
                       <div class="info-right">
                         <ul class="ico-list">
@@ -129,11 +128,14 @@
                         <span class="ico">
                           <span class="icon-facebook"></span>
                         </span>
-                        <span class="text">Share</span>
+                        <span class="text">Compartilhar</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                      <a href="#" class="facebook">
+                      <i class="fab fa-instagram fa-lg"></i>
+                        <span class="text">Compartilhar</span>
+                      </a>
                     </li>
                   </ul>
                 </div>
