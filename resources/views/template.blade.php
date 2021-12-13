@@ -65,10 +65,10 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
-                                        <ul>
+                                    <ul>
                                         @foreach($servico as $p)
-                                            <li><a href="{{url("servicoinfo/$p->id")}}">{{$p->titulo}}</a></li>
-                                            @endforeach
+                                            <li><a href="{{ route('servicoinfo.show',$p->id)}}">{{$p->titulo}}</a></li>
+                                        @endforeach
                                         </ul>
                                     </div>
                                 </li>
