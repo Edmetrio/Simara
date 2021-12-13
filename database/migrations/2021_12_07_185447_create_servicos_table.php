@@ -20,6 +20,7 @@ class CreateServicosTable extends Migration
             $table->string('foto')->nullable();
             $table->string('icon')->nullable();
             $table->string('descricao')->nullable();
+            $table->string('texto')->nullable();
             $table->string('estado')->default('on')->nullable();
             $table->timestamps();
         });
