@@ -16,4 +16,14 @@ class Servico extends Model
 
     protected $table = 'servico';
     protected $fillable = ['titulo','subtitulo','foto','icon','descricao','estado'];
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class, 'servico_id');
+    }
+
+    public function pacotes()
+    {
+        return $this->hasMany(Pacote::class, 'servico_id');
+    }
 }
