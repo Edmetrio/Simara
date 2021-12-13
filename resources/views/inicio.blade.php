@@ -16,63 +16,63 @@
                   <!-- gallery list -->
                   <ul class="gallery-list gallery-with-icon">
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-01.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-bird"></span>
                         <span class="info">América</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-02.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-peak"></span>
                         <span class="info">Terra</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-03.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-water"></span>
                         <span class="info">Água</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-04.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-asia"></span>
                         <span class="info">Ásia</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-05.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-arctic"></span>
                         <span class="info">Europa</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-06.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-africa"></span>
                         <span class="info">África</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-07.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-plant"></span>
                         <span class="info">Natureza</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-08.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-wildlife"></span>
                         <span class="info">Selvagem</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="thumbnail">
+                      <a href="{{ route('galeria.index')}}" class="thumbnail">
                         <img src="{{asset('assets/img/gallery/img-09.jpg')}}" height="165" width="170" alt="image description" />
                         <span class="hover icon-diamond"></span>
                         <span class="info">Tudo</span>
@@ -118,14 +118,14 @@
             @foreach($post as $p)
                 <article class="col-sm-6 col-md-4 article has-hover-s3">
                   <div class="img-wrap">
-                    <a href="#">
+                    <a href="assets/images/post/icon/{{$p->icon}}">
                     <img src="assets/images/post/icon/{{$p->icon}}" height="215" width="370" alt="image description" />
                     </a>
                     <div class="img-caption text-uppercase">
                       {{$p->titulo}}
                     </div>
                   </div>
-                  <h3><a href="#">{{$p->subtitulo}}</a></h3>
+                  <h3><a href="assets/images/post/icon/{{$p->icon}}">{{$p->subtitulo}}</a></h3>
                   <p>
                   {{$p->descricao}}.
                   </p>
@@ -152,7 +152,7 @@
                       <img src="assets/images/pacote/icon/{{$p->icon}}" height="228" width="350" alt="image description" />
                     </div>
                     <h3 class="small-space">
-                      <a href="#">{{$p->titulo}}</a>
+                      <a href="{{ route('pacote.show',$p->id)}}">{{$p->titulo}}</a>
                     </h3>
                     <span class="info">{{$p->reserva}}</span>
                     <aside class="meta">
@@ -163,7 +163,7 @@
                     <p>
                     {{$p->descricao}}
                     </p>
-                    <a href="#" class="btn btn-default">Mais Detalhes</a>
+                    <a href="{{ route('pacote.show',$p->id)}}" class="btn btn-default">Mais Detalhes</a>
                     <footer>
                       <ul class="social-networks">
                         <li>

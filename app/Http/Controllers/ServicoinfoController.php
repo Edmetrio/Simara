@@ -51,7 +51,11 @@ class ServicoinfoController extends Controller
      */
     public function show($id)
     {
-        //
+        $servic = Servico::find($id);
+        $pacote = Pacote::orderBy('id', 'desc')->get();
+        $ultimo = Post::orderBy('id', 'desc')->paginate(4);
+        $servico = Servico::orderBy('id', 'desc')->get();
+        return view('servicoInfo', compact('servic','servico','pacote','ultimo'));
     }
 
     /**

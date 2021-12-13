@@ -12,7 +12,7 @@
                   <div class="slide">
                     <div class="bg-stretch">
                       <img
-                      src="{{asset('assets/img/generic/img-07.jpg')}}"
+                      src="../assets/images/pacote/icon/{{$detalhes->icon}}"
                         alt="image descriprion"
                         height="1104"
                         width="966"
@@ -22,7 +22,7 @@
                   <div class="slide">
                     <div class="bg-stretch">
                       <img
-                      src="assets/images/pacote/icon/{{$detalhes->icon}}"     
+                      src="../assets/images/pacote/icon/{{$detalhes->icon}}"     
                         alt="image descriprion"
                         height="1104"
                         width="966"
@@ -33,7 +33,7 @@
               </div>
               <div class="height col-md-6 text-col">
                 <div class="holder">
-                  <h1 class="small-size">{{$detalhes->titulo}}</h1>
+                  <h1 class="small-size">Viaja para {{$detalhes->titulo}}</h1>
                   <div class="price">a partir de  <strong>{{$detalhes->preco}}MT</strong></div>
                   <div class="description">
                     <p>
@@ -133,28 +133,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="twitter">
-                        <span class="ico">
-                          <span class="icon-twitter"></span>
-                        </span>
-                        <span class="text">Tweet</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="google">
-                        <span class="ico">
-                          <span class="icon-google-plus"></span>
-                        </span>
-                        <span class="text">+1</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="pin">
-                        <span class="ico">
-                          <span class="icon-pin"></span>
-                        </span>
-                        <span class="text">Pin it</span>
-                      </a>
+                      <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -432,7 +411,7 @@
                 <article class="col-sm-6 col-md-3 article">
                   <div class="thumbnail">
                     <h3 class="no-space">
-                      <a href="#">{{$p->titulo}}</a>
+                      <a href="../assets/images/pacote/icon/{{$p->icon}}">{{$p->titulo}}</a>
                     </h3>
                     <strong class="info-title">{{$p->subtitulo}}</strong>
                     <div class="img-wrap">
@@ -448,26 +427,7 @@
                      
                         <span>{{$p->preco}}MT</span>
                       </div>
-                      <ul class="ico-list">
-                        <li class="pop-opener">
-                          <a href="#">
-                            <span class="icon-hiking"></span>
-                            <span class="popup"> Hiking </span>
-                          </a>
-                        </li>
-                        <li class="pop-opener">
-                          <a href="#">
-                            <span class="icon-mountain"></span>
-                            <span class="popup"> Mountain </span>
-                          </a>
-                        </li>
-                        <li class="pop-opener">
-                          <a href="#">
-                            <span class="icon-level5"></span>
-                            <span class="popup"> Level 5 </span>
-                          </a>
-                        </li>
-                      </ul>
+                      
                     </footer>
                   </div>
                 </article>

@@ -10,17 +10,16 @@
           <div class="banner-text">
             <div class="center-text text-center">
               <div class="container">
-                <h1>Urban City Tours</h1>
+                <h1>{{$servic->titulo}}</h1>
                 <strong class="subtitle"
-                  >The most detailed and modern Adventure theme!</strong
+                  >{{$servic->subtitulo}}</strong
                 >
                 <!-- breadcrumb -->
                 <nav class="breadcrumbs">
                   <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ACTIVITIES</a></li>
-                    <li><a href="#">SUMMER</a></li>
-                    <li><span>SUMMER AND SUN</span></li>
+                    <li><a href="{{ route('inicio.index')}}">HOME</a></li>
+                    <li><span>SERVIÇOS</span></li>
+                    <li><span>{{$servic->titulo}}</span></li>
                   </ul>
                 </nav>
               </div>
@@ -33,22 +32,12 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm-8 col-md-9 text-holder">
-                  <h2 class="title-heading">Weekend City Tours</h2>
+                  <h2 class="title-heading">{{$servic->titulo}}</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    {{$servic->subtitulo}}.
                   </p>
                   <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum. Sed
-                    ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque
-                    ipsa quae ab illo inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt explicabo.
+                    {{$servic->descricao}}.
                   </p>
                   <div class="btn-holder">
                     <a
@@ -62,7 +51,7 @@
                   <div class="holder">
                     <div class="map-holder">
                       <img
-                        src="{{asset('assets/img/icons/ico-landing-eifel.svg')}}"
+                        src="../assets/images/icon/{{$servic->icon}}"
                         height="300"
                         width="200"
                         alt="image description"

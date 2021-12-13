@@ -4891,8 +4891,8 @@ a.thumbnail img {
 }
 
 .content-intro .map-col .holder {
-	background: #474d4b;
-	border: 10px solid #2f3231;
+	background: #F58634;
+	border: 10px solid #322f2f;
 	padding: 10px;
 	max-width: 400px;
 	margin: 0 auto;
@@ -7037,7 +7037,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 
 .map-holder {
-	min-height: 320px;
+	min-height: 200px;
 }
 
 .map-holder iframe {
@@ -11035,7 +11035,7 @@ blockquote.normal {
 }
 
 .content-intro .map-col .holder {
-	margin-top: -100px;
+	margin-top: -200px;
 }
 
 .content-intro .text-holder {

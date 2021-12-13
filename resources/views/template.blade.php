@@ -67,7 +67,7 @@
                                     <div class="dropdown-menu">
                                         <ul>
                                         @foreach($servico as $p)
-                                            <li><a href="#">{{$p->titulo}}</a></li>
+                                            <li><a href="{{url("servicoinfo/$p->id")}}">{{$p->titulo}}</a></li>
                                             @endforeach
                                         </ul>
                                     </div>
@@ -298,9 +298,9 @@
                         <ul>
                         @foreach($servico as $s)
                             <li>
-                                <a href="#">
+                                <a href="{{ route('servicoinfo.show',$s->id)}}">
                                     <span class="ico">
-                                        <img width="80%" height="80%" src="assets/images/icon/{{$s->icon}}" alt="image description" />
+                                        <img width="80%" height="80%" src="assets/images/icon/{{$s->icon}}" alt="{{$s->titulo}}" />
                                     </span>
                                     <span class="info">{{$s->titulo}}</span>
                                 </a>

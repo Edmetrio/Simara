@@ -22,7 +22,7 @@
         <ul class="gallery-list has-center gallery-main">
             @foreach($pacote as $p)
             <li>
-                <a class="fancybox" data-fancybox-group="group" href="{{url("pacote/$p->id")}}" title="{{$p->titulo}}">
+                <a class="fancybox" data-fancybox-group="group" href="assets/images/pacote/icon/{{$p->icon}}" title="{{$p->titulo}}">
                     <span class="img-holder">
                         <img src="assets/images/pacote/icon/{{$p->icon}}" height="240" width="370" alt="image description" />
                     </span>
