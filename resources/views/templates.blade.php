@@ -21,6 +21,8 @@
     <link media="all" rel="stylesheet" href="{{asset('assets/vendors/fancybox/jquery.fancybox.css')}}" />
     <!-- include main css -->
     <link media="all" rel="stylesheet" href="{{asset('assets/css/main.css')}}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
 </head>
 
 <body class="default-page">
