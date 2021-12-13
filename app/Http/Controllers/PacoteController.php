@@ -27,7 +27,8 @@ class PacoteController extends Controller
      */
     public function create()
     {
-        return view('createPacote');
+        $servico = Servico::with(['posts'])->orderBy('id', 'desc')->get();
+        return view('createPacote', compact('servico'));
     }
 
     /**
@@ -79,6 +80,8 @@ class PacoteController extends Controller
         $pacote = Pacote::orderBy('id', 'desc')->get();
         $ultimo = Post::orderBy('id', 'desc')->paginate(4);
         $servico = Servico::orderBy('id', 'desc')->get();
+        $show = Servico::with(['posts','pacotes'])->find($id);
+        dd($show);
         return view('detalhes', compact('detalhes','pacote','ultimo','servico'));
     }
 
