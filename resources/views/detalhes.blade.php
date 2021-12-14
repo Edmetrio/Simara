@@ -33,7 +33,8 @@
               </div>
               <div class="height col-md-6 text-col">
                 <div class="holder">
-                  <h1 class="small-size">Viaja para {{$detalhes->titulo}}</h1>
+                  <h1 class="small-size">{{ $detalhes->servicos->titulo }}</h1><hr>
+                  <h1 class="small-size">{{$detalhes->titulo}}</h1>
                   <div class="price">a partir de  <strong>{{$detalhes->preco}}MT</strong></div>
                   <div class="description">
                     <p>
