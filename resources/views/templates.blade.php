@@ -79,8 +79,8 @@
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                            <a href="{{ route('galeria.index')}}"><img src="../assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a>
-                                                                <a href="{{ route('galeria.index')}}"><img src="assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a>
+                                                            <a href="{{ route('galeria.index')}}"><img src="assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a>
+                                                                <!-- <a href="{{ route('galeria.index')}}"><img src="assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a> -->
                                                             </div>
                                                             <div class="des">
                                                                 <strong class="title"><a href="{{ route('galeria.index')}}">{{$u->titulo}}</a></strong>
