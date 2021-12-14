@@ -81,9 +81,11 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
+    public function edit($id)
     {
-        return view('createPost', compact('post'));
+        $post = Post::with(['servicos'])->find($id);
+        $servico = Servico::orderBy('id', 'desc')->get();
+        return view('createPost', compact('post','servico'));
     }
 
     /**
