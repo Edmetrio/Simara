@@ -31,7 +31,7 @@
                                     <th>SubTítulo</th>
                                     <th>icon</th>
                                     <th>Reserva</th>
-                                    <th>Descrição</th>
+                                    <th>Serviço</th>
                                     <th>preço</th>
                                     <th>Cidade/Pais</th>
                                     <th>Acções</th>
@@ -45,7 +45,7 @@
                                         <td>{{$p->subtitulo}}</td>
                                         <td><img class="img-fluid" src="assets/images/pacote/icon/{{$p->icon}}" style="width: 30px; text-align: center;" /></td>
                                         <td>{{$p->reserva}}</td>
-                                        <td>{{$p->descricao}}</td>
+                                        <td>{{$p->servicos->titulo}}</td>
                                         <td>{{$p->preco}}</td>
                                         <td>{{$p->cidade}}</td>
                                         <td role="gridcell"  style="display: flex; justify-content: flex-start;">
