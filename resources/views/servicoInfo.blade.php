@@ -62,12 +62,12 @@
                     </div>
                     <div class="info">
                       <div class="slot">
-                        <strong>Best Season:</strong>
-                        <span class="sub">May, June, July, August</span>
+                        <strong>Serviço:</strong>
+                        <span class="sub">{{ $servic->titulo }}</span>
                       </div>
                       <div class="slot">
-                        <strong>Popular Location:</strong>
-                        <span class="sub">Madrid, Bhamas, Phuket, Sydney</span>
+                        <strong>Descrição:</strong>
+                        <span class="sub">{{ $servic->titulo }}, {{ $servic->descricao }}</span>
                       </div>
                     </div>
                   </div>
@@ -88,18 +88,15 @@
                     </h3>
                     <strong class="info-title">{{$p->subtitulo}}</strong>
                     <div class="img-wrap">
+                      <a href="../assets/images/post/icon/{{$p->icon}}">
                       <img
                         src="../assets/images/post/icon/{{$p->icon}}"
                         height="210"
                         width="250"
                         alt="image description"
                       />
+                    </a>
                     </div>
-                    <footer>
-                      <p>
-                  {{$p->descricao}}.
-                  </p>
-                    </footer>
                   </div>
                 </article>
                 @endforeach
