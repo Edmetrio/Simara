@@ -41,7 +41,7 @@
                         <div class="form-group col-md-6">
                             <label for="inputCity" class="col-form-label">Serviço</label>
                             <select name="servico_id" class="form-control">
-                                <option value="">Seleccione o Serviço</option>
+                            <option value="{{$post->servicos->id ?? ''}}">{{$post->servicos->titulo ?? 'Seleccione o Serviço'}}</option>
                                 @foreach($servico as $s)
                                 <option value="{{$s->id}}">{{$s->titulo}}</option>
                                 @endforeach
