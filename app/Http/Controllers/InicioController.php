@@ -24,7 +24,7 @@ class InicioController extends Controller
         $post = Post::orderBy('id', 'desc')->get();
         $ultimo = Post::orderBy('id', 'desc')->paginate(4);
         $companhia = Companhia::orderBy('id', 'desc')->get();
-        $servico = Servico::orderBy('id', 'desc')->get();
+        $servico = Servico::orderBy('id', 'desc')->paginate(8);
         return view('inicio', compact('depoimento','pacote','post','companhia','ultimo','servico'));
     }
 
