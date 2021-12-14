@@ -16,4 +16,9 @@ class Pacote extends Model
 
     protected $table = 'pacote';
     protected $fillable = ['titulo','subtitulo','icon','reserva','descricao','preco','cidade','servico_id','estado'];
+
+    public function servicos()
+    {
+        return $this->hasOne(Servico::class, 'id', 'servico_id');
+    }
 }
