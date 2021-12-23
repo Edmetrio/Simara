@@ -97,6 +97,8 @@
                                     </div>
                                 </li>
                                 <li><a href="{{ route('sobre.index')}}">Sobre nós</a></li>
+                                <li><a href="{{ route('agenda.index')}}">Agendar</a></li>
+
 
                                 <li class="visible-xs visible-sm">
                                     <a href="#">
