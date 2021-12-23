@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AgendarController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\GaleriaController;
 use App\Http\Controllers\InicioController;
@@ -40,6 +41,8 @@ Route::resource('sobre', SobreController::class);
 Route::resource('acerca', SobreController::class);
 
 Route::resource('servicoinfo', ServicoinfoController::class);
+
+Route::resource('agenda', AgendarController::class);
 
 //DashBord
 Route::resource('index', IndexController::class);
