@@ -1145,7 +1145,7 @@ blockquote.normal {
 	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 26px;
 	line-height: 30px;
-	color: #b0a377;
+	color: #ffffff;
 	padding-right: 10px;
 }
 
@@ -1160,13 +1160,13 @@ blockquote.normal {
 .rev_slider_wrapper .rev-btn .btn-banner {
 	border-color: #6b6957;
 	background: none;
-	color: #b0a377;
+	color: #ffffff;
 	border-radius: 25px;
 }
 
 .rev_slider_wrapper .rev-btn .btn-banner:hover {
 	border-color: #6b6957;
-	background: #6b6957;
+	background: #F58634;
 	color: #fff;
 }
 
@@ -8332,7 +8332,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 
 .jcf-select.jcf-select-trip-select-v2 {
 	background: none;
-	border: 4px solid #464646;
+	border: 1px solid #464646;
 	height: 52px;
 	width: 100%;
 }
