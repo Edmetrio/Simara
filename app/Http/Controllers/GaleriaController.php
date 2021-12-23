@@ -53,7 +53,7 @@ class GaleriaController extends Controller
      */
     public function show($id)
     {
-        $galeria = Galeria::find($id);
+        
     }
 
     /**
