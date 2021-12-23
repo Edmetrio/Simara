@@ -7,13 +7,13 @@
     <!-- top information area -->
     <div class="inner-top">
         <div class="container">
-            <h1 class="inner-main-heading">Galerias - Postes</h1>
+            <h1 class="inner-main-heading">Galerias - Postagens</h1>
             <!-- breadcrumb -->
             <nav class="breadcrumbs">
                 <ul>
-                    <li><a href="#">Início</a></li>
+                    <li><a href="{{ route('inicio.index')}}">Início</a></li>
                     <li><a href="#">Galeria</a></li>
-                    <li><span>Postes</span></li>
+                    <li><span>Postagens</span></li>
                 </ul>
             </nav>
         </div>
