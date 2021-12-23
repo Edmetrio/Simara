@@ -101,7 +101,7 @@
           <div class="container">
             <p class="special-text">
               Para reservas, contacte-nos
-              <strong>Chamada <a href="tel:+258820046681">+258 82 004 6681/3</a></strong>
+              <strong>Chamada <a href="tel:+258820046681">+258 82 004 6683</a></strong>
             </p>
           </div>
         </aside>
@@ -167,13 +167,13 @@
                     <footer>
                       <ul class="social-networks">
                         <li>
-                          <a href="#"><span class="icon-facebook"></span></a>
+                          <a href="https://www.facebook.com/simara.tours/"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                          <a href="https://www.instagram.com/simaratours/"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
-                      <span class="price">A partir de <span>{{$p->preco}}</span></span>
+                      <span class="price">A partir de <span>{{$p->preco}},00MT</span></span>
                     </footer>
                   </div>
                 </article>
