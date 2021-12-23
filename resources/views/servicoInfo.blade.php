@@ -1,4 +1,4 @@
-@extends('templates')
+@extends('templateT')
 
 @section('content')
 
@@ -43,7 +43,7 @@
         <div class="col-sm-4 col-md-3 map-col">
           <div class="holder">
             <div class="map-holder">
-              <img src="../assets/images/icon/{{$servic->icon}}" height="300" width="200" alt="image description" />
+              <img src="../assets/images/icon/{{$servic->icon}}" height="300" width="200" alt="{{$servic->titulo}}" />
             </div>
             <div class="info">
               <div class="slot">
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-
+    @if(!$servinfo->posts->isEmpty())
     <aside class="recent-block recent-gray recent-wide-thumbnail">
       <div class="container">
         <h2 class="text-center text-uppercase">ÚLTIMAS PUBLICAÇÕES</h2>
@@ -83,7 +83,10 @@
         </div>
       </div>
     </aside>
+    @else
+    @endif
 
+    @if(!$servinfo->pacotes->isEmpty())
     <aside class="recent-block recent-gray recent-wide-thumbnail">
       <div class="container">
         <h2 class="text-center text-uppercase">PACOTES E PREÇOS</h2>
@@ -101,13 +104,12 @@
               <footer>
                 <ul class="social-networks">
                   <li>
-                    <a href="#"><span class="icon-facebook"></span></a>
+                    <a href="https://www.facebook.com/simara.tours/"><span class="icon-facebook"></span></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.instagram.com/simaratours/"><i class="fab fa-instagram fa-lg"></i></a>
                   </li>
                 </ul>
-                <span class="price">A partir de <span>{{$p->preco}}</span></span>
               </footer>
             </div>
           </article>
@@ -115,7 +117,9 @@
         </div>
       </div>
     </aside>
-
+    @else
+    @endif
+    
   </div>
 
 </main>
