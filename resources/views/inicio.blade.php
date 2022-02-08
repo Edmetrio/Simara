@@ -173,7 +173,7 @@
                           <a href="https://www.instagram.com/simaratours/"><i class="fab fa-instagram fa-lg"></i></a>
                         </li>
                       </ul>
-                      <span class="price">A partir de <span>{{$p->preco}},00MT</span></span>
+                      <span class="price">A partir de </span><strong style="color: #F58634; font-size: 20px; font-weight: bolder; font: 1.4em/1.71428571 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;">{{ number_format($p->preco, 2, ',','.')}} MT</strong>
                     </footer>
                   </div>
                 </article>
