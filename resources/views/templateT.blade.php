@@ -61,10 +61,10 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="icon-angle-down"></b></a>
                                     <div class="dropdown-menu">
-                                    <ul>
-                                        @foreach($servico as $p)
+                                        <ul>
+                                            @foreach($servico as $p)
                                             <li><a href="{{ route('servicoinfo.show',$p->id)}}">{{$p->titulo}}</a></li>
-                                        @endforeach
+                                            @endforeach
                                         </ul>
                                     </div>
                                 </li>
@@ -75,11 +75,11 @@
                                         <div class="drop-wrap">
                                             <div class="drop-holder">
                                                 <div class="row">
-                                                @foreach($ultimo as $u)
+                                                    @foreach($ultimo as $u)
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="col">
                                                             <div class="img-wrap">
-                                                            <a href="{{ route('galeria.index')}}"><img src="../assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a>
+                                                                <a href="{{ route('galeria.index')}}"><img src="../assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a>
                                                                 <!-- <a href="{{ route('galeria.index')}}"><img src="assets/images/post/icon/{{$u->icon}}" height="228" width="350" alt="Simara" /></a> -->
                                                             </div>
                                                             <div class="des">
@@ -127,7 +127,7 @@
                                 <span class="icon-cross"></span>
                             </a>
                             <div class="trip-form trip-form-v2 trip-search-main">
-                            <div class="trip-form-wrap">
+                                <div class="trip-form-wrap">
                                     <div class="holder">
                                         <label>Partida</label>
                                         <div class="select-holder">
