@@ -19,12 +19,13 @@ class InicioController extends Controller
      */
     public function index()
     {
-        $depoimento = Depoimento::orderBy('id', 'desc')->get();
-        $pacote = Pacote::orderBy('id', 'desc')->get();
-        $post = Post::orderBy('id', 'desc')->get();
-        $ultimo = Post::orderBy('id', 'desc')->paginate(4);
-        $companhia = Companhia::orderBy('id', 'desc')->get();
-        $servico = Servico::orderBy('id', 'desc')->paginate(8);
+        $servico = Servico::orderBy('created_at', 'desc')->paginate(8);
+        $post = Post::orderBy('created_at', 'desc')->paginate(6);
+        $pacote = Pacote::orderBy('created_at', 'desc')->paginate(9);
+        
+        $depoimento = Depoimento::orderBy('created_at', 'desc')->get();
+        $ultimo = Post::orderBy('created_at', 'desc')->paginate(4);
+        $companhia = Companhia::orderBy('created_at', 'desc')->get();
         return view('inicio', compact('depoimento','pacote','post','companhia','ultimo','servico'));
     }
 
