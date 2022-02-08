@@ -27,8 +27,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('inicio');
+/* Route::get('image', function () {
+    return view('emails.TestMail');
 }); */
 Route::resource('/', InicioController::class);
 
@@ -43,6 +43,7 @@ Route::resource('acerca', SobreController::class);
 Route::resource('servicoinfo', ServicoinfoController::class);
 
 Route::resource('agenda', AgendarController::class);
+Route::get('/send-email', [AgendarController::class, 'sendEmail']);
 
 //DashBord
 Route::resource('index', IndexController::class);
