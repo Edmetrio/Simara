@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\TestMail;
 use App\Models\Models\Post;
 use App\Models\Models\Servico;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class AgendarController extends Controller
 {
@@ -18,6 +20,17 @@ class AgendarController extends Controller
         $ultimo = Post::orderBy('id', 'desc')->paginate(4);
         $servico = Servico::orderBy('id', 'desc')->get();
         return view('agenda', compact('ultimo','servico'));
+    }
+
+    public function sendEmail()
+    {
+        $detail = [
+            'title' => 'Simara Tours Travel',
+            'body' => 'Este conteúdo requerer texto.'
+        ];
+
+        Mail::to("info@simaratours.co.mz")->send(new TestMail($detail));
+        return "Email Sent";
     }
 
     /**
@@ -38,7 +51,17 @@ class AgendarController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        /* return $request->input(); */
+        $request->validate([
+            'nome' => 'required',
+            'email' => 'required|email',
+            'regiao' => 'required',
+            'orcamento' => 'required',
+        ]);
+        $detail = $request->all();
+        Mail::to('info@simaratours.co.mz')->send(new TestMail($detail));
+        $request->session()->flash('status', 'E-mail enviado com sucesso!');
+        return redirect('agenda');
     }
 
     /**
